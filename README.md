@@ -24,7 +24,7 @@ TODO:
 
 - [ ] remove redundant rules that occur across styles
 - [ ] remove contradictory rules, keeping what's preferred. 
-- [ ] add readability rules?
+- [x] add readability rules
 - [ ] combine into one custom style
 - [x] check for headings in title case
 - [x] add a good example doc for testing
