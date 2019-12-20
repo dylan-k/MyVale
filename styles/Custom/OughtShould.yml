@@ -1,0 +1,11 @@
+---
+extends: existence
+message: Go easy on the oughts and shoulds
+description: "The aim is not just to tell readers what you think, but to persuade them."
+# Source: https://github.com/testthedocs/vale-styles/tree/master/TheEconomist
+scope: text
+level: warning
+ignorecase: true
+tokens:
+  - ought
+  - should
