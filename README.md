@@ -5,7 +5,7 @@ My collection of style-guide rules to use with Vale while writing. I have two go
 ## Installation
 
 - clone this repo into your `~/.config/vale/` directory
-- update styles to their latest with `git pull --recurse-submodules`
+- update styles to their latest with `git submodule foreach git pull origin master`
 - hardlink the config file from this working directory to its required location.  
 `ln ~/.config/vale/.vale.ini ~/.vale.ini`
 - note the stylespath in that file, revise as needed
