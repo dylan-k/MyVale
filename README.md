@@ -1,10 +1,11 @@
 # MyVale
 
-My collection of style-guide rules to use with Vale while writing. I have two goals for this project. First, to make it easy to have my style guide with me and up-to-date on my laptop, at work, or at home. Second, my style guide is standing on the shoulders of giants, but I want to migrate my borrowed style rules into one collection. To begin with, I'm using multiple styles together, but it results in contradictions and redundancies. 
+My collection of style-guide rules to use with Vale while writing. I have two goals for this project. First, to make it easy to have my style guide with me and up-to-date on my laptop, at work, or at home. Second, my style guide is standing on the shoulders of giants, but I want to migrate my borrowed style rules into one collection. To begin with, I'm using a set of styles, but it results in contradictions and redundancies. 
 
 ## Installation
 
 - clone this repo into your `~/.config/vale/` directory
+- update styles to their latest with `git pull --recurse-submodules`
 - hardlink the config file from this working directory to its required location.  
 `ln ~/.config/vale/.vale.ini ~/.vale.ini`
 - note the stylespath in that file, revise as needed
@@ -12,8 +13,8 @@ My collection of style-guide rules to use with Vale while writing. I have two go
 
 ## Extra Settings
 
-alias in `~/.bash_aliases` file to quickly edit Vale settings.  
-`alias vale="cd ~/.config/vale/ && subl ."`
+alias in `~/.bash_aliases` to edit Vale settings with Sublime Text:  
+`alias valestyles="cd ~/.config/vale/ && subl ."`
 
 ## Want More Styles?
 
