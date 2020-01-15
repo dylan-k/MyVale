@@ -11,10 +11,20 @@ My collection of style-guide rules to use with Vale while writing. I have two go
 - note the stylespath in that file, revise as needed
 - To use these style rules within the Sublime Text editor, install my fork of [SublimeValeLinter](https://github.com/dylan-k/SublimeValeLinter).
 
-## Extra Settings
+## Extra settings
 
 alias in `~/.bash_aliases` to edit Vale settings with Sublime Text:  
 `alias valestyles="cd ~/.config/vale/ && subl ."`
+
+## Keeping up-to-date
+
+- The 'proselint' style is here as a git submodule and is also available as a standalone repository. To update, do `git submodule foreach git pull origin master`
+- The other styles are also available as standalone repositories, but they are not structured the same way. To update these, you'll have to download the latest release, copy the style directory to your StylesPath. It's annoying but at least the styles change infrequently.
+- The style repositories used here are:
+    - https://github.com/errata-ai/write-good
+    - https://github.com/errata-ai/google
+    - https://github.com/errata-ai/proselint
+    - https://github.com/errata-ai/microsoft
 
 ## Want More Styles?
 
@@ -25,8 +35,9 @@ TODO:
 
 - [ ] remove redundant rules that occur across styles
 - [ ] remove contradictory rules, keeping what's preferred. 
-- [x] add readability rules
 - [ ] combine into one custom style
+- [ ] test readability rules
+- [x] add readability rules
 - [x] check for headings in title case
 - [x] add a good example doc for testing
 
