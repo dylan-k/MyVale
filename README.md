@@ -11,12 +11,16 @@ My collection of style-guide rules to use with Vale while writing. I have two go
 - note the stylespath in that file, revise as needed
 - To use these style rules within the Sublime Text editor, install my fork of [SublimeValeLinter](https://github.com/dylan-k/SublimeValeLinter).
 
-## Extra settings
+## Configuration
 
 alias in `~/.bash_aliases` to edit Vale settings with Sublime Text:  
 `alias valestyles="cd ~/.config/vale/ && subl ."`
 
-## Keeping up-to-date
+## Changes
+
+Rather than to change/edit a .yml file, disable it in your vale.ini file. If you're making a change, copy it to /Custom with the change. Otherwise, you run the risk of replacing a deleted rule during an update. 
+
+## Updates
 
 - The 'proselint' style is here as a git submodule and is also available as a standalone repository. To update, do `git submodule foreach git pull origin master`
 - The other styles are also available as standalone repositories, but they are not structured the same way. To update these, you'll have to download the latest release, copy the style directory to your StylesPath. It's annoying but at least the styles change infrequently.
@@ -26,16 +30,19 @@ alias in `~/.bash_aliases` to edit Vale settings with Sublime Text:
     - https://github.com/errata-ai/proselint
     - https://github.com/errata-ai/microsoft
 
-## Want More Styles?
+## Sources
 
 - https://github.com/testthedocs/vale-styles
 - https://github.com/errata-ai/styles
 
-TODO:
+Tasks:
 
+
+- [ ] move these tasks to GitHub issues
 - [ ] remove redundant rules that occur across styles
 - [ ] remove contradictory rules, keeping what's preferred. 
 - [ ] combine into one custom style
+- [ ] make a rule for spelling exceptions
 - [ ] test readability rules
 - [x] add readability rules
 - [x] check for headings in title case
