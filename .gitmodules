@@ -1,9 +1,6 @@
 [submodule "styles/write-good"]
 	path = styles/write-good
 	url = git@github.com:errata-ai/write-good.git
-[submodule "styles/proselint"]
-	path = styles/proselint
-	url = https://github.com/errata-ai/proselint.git
 [submodule "styles/hedgeclipper"]
 	path = styles/hedgeclipper
 	url = git@github.com:dylan-k/hedgeclipper.git
