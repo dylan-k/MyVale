@@ -1,9 +1,6 @@
 [submodule "styles/Microsoft"]
 	path = styles/Microsoft
 	url = git@github.com:errata-ai/Microsoft.git
-[submodule "styles/Google"]
-	path = styles/Google
-	url = git@github.com:errata-ai/Google.git
 [submodule "styles/write-good"]
 	path = styles/write-good
 	url = git@github.com:errata-ai/write-good.git
