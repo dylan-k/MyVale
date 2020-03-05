@@ -5,30 +5,23 @@ My collection of style-guide rules to use with Vale while writing. I have two go
 ## Installation
 
 - clone this repo into your `~/.config/vale/` directory
-- update styles to their latest with `git submodule foreach git pull origin master`
 - hardlink the config file from this working directory to its required location.  
 `ln ~/.config/vale/.vale.ini ~/.vale.ini`
 - note the stylespath in that file, revise as needed
-- To use these style rules within the Sublime Text editor, install my fork of [SublimeValeLinter](https://github.com/dylan-k/SublimeValeLinter).
+- To use these style rules within the Sublime Text editor, install my fork of [SublimeLinter-contrib-vale](https://github.com/dylan-k/SublimeLinter-contrib-vale).
 
 ## Configuration
 
-alias in `~/.bash_aliases` to edit Vale settings with Sublime Text:  
+- update submodule styles. `cd` to each and do `git pull origin master`
+
+- alias in `~/.bash_aliases` to edit Vale settings with Sublime Text:  
 `alias valestyles="cd ~/.config/vale/ && subl ."`
 
 ## Changes
 
-Rather than to change/edit a .yml file, disable it in your vale.ini file. If you're making a change, copy it to /Custom with the change. Otherwise, you run the risk of replacing a deleted rule during an update. 
+Rather than to change/edit a .yml file, disable it in your vale.ini file. If you're making a change, copy it to `styles/Custom` with the change. Otherwise, you run the risk of replacing a deleted rule during an update. My plan is to eventually have only the Custom style.
 
-## Updates
-
-- The 'proselint' style is here as a git submodule and is also available as a standalone repository. To update, do `git submodule foreach git pull origin master`
-- The other styles are also available as standalone repositories, but they are not structured the same way. To update these, you'll have to download the latest release, copy the style directory to your StylesPath. It's annoying but at least the styles change infrequently.
-- The style repositories used here are:
-    - https://github.com/errata-ai/write-good
-    - https://github.com/errata-ai/google
-    - https://github.com/errata-ai/proselint
-    - https://github.com/errata-ai/microsoft
+Be careful not to replace any styles you've already removed.
 
 ## Sources
 
