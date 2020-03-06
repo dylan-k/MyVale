@@ -1,7 +1,9 @@
+---
 extends: existence
 message: "'%s' is too wordy."
 ignorecase: true
 level: warning
+# see also: wordiness.yml
 tokens:
   - a number of
   - abundance
@@ -36,7 +38,6 @@ tokens:
   - anticipate
   - apparent
   - appreciable
-  - as a matter of fact
   - as a means of
   - as far as I'm concerned
   - as of yet
@@ -44,7 +45,7 @@ tokens:
   - as yet
   - ascertain
   - assistance
-  - at the present time
+  - at present
   - at this time
   - attain
   - attributable to
@@ -112,7 +113,6 @@ tokens:
   - in lieu of
   - in light of the fact that
   - in many cases
-  - in my opinion
   - in order to
   - in regard to
   - in some instances
@@ -128,7 +128,6 @@ tokens:
   - indicate
   - indication
   - initiate
-  - irregardless
   - is applicable to
   - is authorized to
   - is responsible for

@@ -1,3 +1,4 @@
+---
 extends: substitution
 message: "Use '%s' instead of '%s'."
 link: 'https://developers.google.com/style/word-list'
@@ -74,7 +75,7 @@ swap:
   synch: sync
   tablename: table name
   tablet: device
-  touch: tap
   url:  URL
   vs\.: versus
   World Wide Web: web
+

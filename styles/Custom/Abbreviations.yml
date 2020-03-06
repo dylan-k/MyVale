@@ -4,6 +4,7 @@ message: Use '%s'
 ignorecase: false
 link: 'https://github.com/Homebrew/brew/blob/master/docs/Prose-Style-Guidelines.md#style-and-usage'
 level: error
+scope: text
 nonword: true
 swap:
   '\beg\b': e.g.
