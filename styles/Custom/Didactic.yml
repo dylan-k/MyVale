@@ -1,7 +1,7 @@
 ---
 extends: existence
-message: "'%s' - Do not be too didactic"
-description: "If too many sentences begin with '%s,' readers will think they are reading a textbook."
+message: “%s” — Do not be didactic.
+description: If too many sentences begin with '%s,' readers will think they are reading a textbook.
 scope: text
 level: warning
 ignorecase: false

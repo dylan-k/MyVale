@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: "'%s' - See section 'Unnecessary words'"
+message: “%s” is wordy.
 level: warning
 scope: text
 description: Some words add nothing but length to your prose.
@@ -34,3 +34,4 @@ tokens:
   - weather conditions
   - wilderness area
   - there are
+  - there is

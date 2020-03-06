@@ -1,5 +1,6 @@
+---
 extends: existence
-message: "'%s' is a cliché."
+message: “%s” is a cliché.
 level: error
 ignorecase: true
 tokens:
@@ -20,6 +21,7 @@ tokens:
   - ace in the hole
   - acid test
   - add insult to injury
+  - address
   - against all odds
   - air your dirty laundry
   - alas and alack
@@ -65,6 +67,7 @@ tokens:
   - bend over backwards
   - benefit of the doubt
   - bent out of shape
+  - bespoke
   - best thing since sliced bread
   - bet your bottom dollar
   - better half
@@ -115,6 +118,7 @@ tokens:
   - boys will be boys
   - bright and early
   - brings home the bacon
+  - brits
   - broad across the beam
   - broken record
   - brought back to reality
@@ -135,12 +139,14 @@ tokens:
   - can of worms
   - can't cut the mustard
   - can't hold a candle to
+  - care for
   - case of mistaken identity
   - cast aspersions
   - cat got your tongue
   - cat's meow
   - caught in the crossfire
   - caught red-handed
+  - challenge
   - chase a red herring
   - checkered past
   - chomping at the bit
@@ -151,6 +157,8 @@ tokens:
   - cock and bull story
   - cold shoulder
   - come hell or high water
+  - commit to
+  - community
   - comparing apples and oranges
   - compleat
   - conspicuous by its absence
@@ -214,6 +222,7 @@ tokens:
   - eat your heart out
   - eat your words
   - eleventh hour
+  - environment
   - even the playing field
   - every dog has its day
   - every fiber of my being
@@ -224,6 +233,7 @@ tokens:
   - facts of life
   - fair weather friend
   - fall by the wayside
+  - famously
   - fan the flames
   - far be it from me
   - fast and loose
@@ -247,6 +257,7 @@ tokens:
   - flog a dead horse
   - fly by night
   - fly the coop
+  - focus
   - follow your heart
   - for all intents and purposes
   - for free
@@ -314,12 +325,14 @@ tokens:
   - high as a kite
   - his own worst enemy
   - his work cut out for him
+  - historic
   - hit paydirt
   - hither and yon
   - hold your head up high
   - hold your horses
   - hold your own
   - hold your tongue
+  - homeland
   - honest as the day is long
   - horns of a dilemma
   - horse of a different color
@@ -343,6 +356,8 @@ tokens:
   - in the nick of time
   - in the thick of it
   - in your dreams
+  - individual
+  - inform
   - innocent bystander
   - it ain't over till the fat lady sings
   - it goes without saying
@@ -445,6 +460,7 @@ tokens:
   - man's best friend
   - mark my words
   - meaningful dialogue
+  - metrosexual
   - missed the boat on that one
   - moment in the sun
   - moment of glory
@@ -524,11 +540,13 @@ tokens:
   - out on a limb
   - over a barrel
   - over the hump
+  - overseas
   - pain and suffering
   - pain in the
   - panic button
   - par for the course
   - part and parcel
+  - participate in
   - party pooper
   - pass the buck
   - patience is a virtue
@@ -553,6 +571,7 @@ tokens:
   - pot calling the kettle black
   - presidential timber
   - pretty as a picture
+  - process
   - pull a fast one
   - pull your punches
   - pulled no punches
@@ -582,6 +601,8 @@ tokens:
   - redound to one's credit
   - redound to the benefit of
   - reinvent the wheel
+  - relationship
+  - resources
   - rich and famous
   - rings a bell
   - ripe old age
@@ -620,6 +641,7 @@ tokens:
   - six of one, half a dozen of another
   - six of one, half a dozen of the other
   - skating on thin ice
+  - skills
   - slept like a log
   - slinging mud
   - slippery as an eel
@@ -651,6 +673,7 @@ tokens:
   - stubborn as a mule
   - stuff that dreams are made of
   - stuffed shirt
+  - supportive
   - sweating blood
   - sweating bullets
   - take a load off
@@ -660,6 +683,7 @@ tokens:
   - take the plunge
   - takes one to know one
   - takes two to tango
+  - target
   - than you can shake a stick at
   - the cream of the crop
   - the cream rises to the top
@@ -701,6 +725,7 @@ tokens:
   - too numerous to mention
   - touch with a ten foot pole
   - tough as nails
+  - transparency
   - trial and error
   - trials and tribulations
   - tried and true
@@ -727,6 +752,7 @@ tokens:
   - viable alternative
   - waiting for the other shoe to drop
   - wakeup call
+  - wannabes
   - warm welcome
   - watch your p's and q's
   - watch your tongue

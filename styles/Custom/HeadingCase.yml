@@ -1,6 +1,7 @@
 ---
 extends: capitalization
-message: "'%s' should be in sentence case"
+message: “%s” should be in title case.
 level: warning
-scope: heading.rst
-match: $sentence
+scope: heading
+match: $title
+style: Chicago

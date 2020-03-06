@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: "'%s' - See section 'Journalese and slang'"
+message: “%s” is jargon.
 scope: text
 level: warning
 description: "Slang, like metaphors, should be used only occasionally if it is to have effect."

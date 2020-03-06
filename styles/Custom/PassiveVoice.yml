@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: '"%s" is passive voice'
+message: “%s” is passive voice.
 link: 'https://contribute.jquery.org/style-guide/prose/#voice-amp-tone'
 ignorecase: true
 level: suggestion

@@ -1,5 +1,5 @@
 ---
-message: "Sentences should be less than 25 words"
+message: Sentences should not exceed 25 words.
 extends: occurrence
 scope: sentence
 level: suggestion

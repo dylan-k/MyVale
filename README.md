@@ -1,4 +1,7 @@
-# MyVale
+
+
+MyVale
+############################################################################
 
 My collection of style-guide rules to use with Vale while writing. I have two goals for this project. First, to make it easy to have my style guide with me and up-to-date on my laptop, at work, or at home. Second, my style guide is standing on the shoulders of giants, but I want to migrate my borrowed style rules into one collection. To begin with, I'm using a set of styles, but it results in contradictions and redundancies. 
 
@@ -40,6 +43,8 @@ Tasks:
 - [x] add readability rules
 - [x] check for headings in title case
 - [x] add a good example doc for testing
+- [ ] hyphen rules
+- [ ] rules for words that should not start a sentence
 
 __
 dk

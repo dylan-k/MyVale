@@ -1,5 +1,6 @@
+---
 extends: existence
-message: "'%s' doesn't need a hyphen."
+message: “%s” doesn't need a hyphen.
 link: 'https://developers.google.com/style/hyphens'
 level: error
 ignorecase: false

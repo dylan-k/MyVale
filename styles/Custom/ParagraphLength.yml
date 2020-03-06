@@ -1,7 +1,7 @@
 ---
-message: "Paragraphs should be less than 150 words"
+message: Paragraphs should not exceed 150 words.
 extends: occurrence
-scope: paragraph.rst
+scope: paragraph
 level: suggestion
 max: 150
 token: \b(\w+)\b

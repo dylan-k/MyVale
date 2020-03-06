@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: "'%s' is not comparable"
+message: “%s” is not comparable.
 ignorecase: true
 level: error
 action:
