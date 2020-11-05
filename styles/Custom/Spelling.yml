@@ -1,9 +1,0 @@
----
-extends: spelling
-message: is “%s” spelled correctly?
-level: error
-# scope: paragraph
-custom: true
-code: false
-filters:
-  - '(?:(?:https?|ftp):\/\/|\b(?:[a-z\d]+\.))(?:(?:[^\s()<>]+|\((?:[^\s()<>]+|(?:\([^\s()<>]+\)))?\))+(?:\((?:[^\s()<>]+|(?:\(?:[^\s()<>]+\)))?\)|[^\s`!()\[\]{};:'".,<>?«»“”‘’]))?'
