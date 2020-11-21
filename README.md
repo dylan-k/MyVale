@@ -8,7 +8,8 @@ My collection of style-guide rules to use with Vale while writing. I have two go
 
 - clone this repo into your `~/.config/vale/` directory
 - hardlink the config file from this working directory to its required location.  
-`ln ~/.config/vale/.vale.ini ~/.vale.ini`
+  - mac/linux: `ln ~/.config/vale/.vale.ini ~/.vale.ini`
+  - windows: `New-Item -ItemType HardLink -Path "C:\Users\USERNAME\.vale.ini" -Target "C:\Users\USERNAME\.config\vale\.vale.ini"`
 - note the stylespath in that file, revise as needed
 - To use these style rules within the Sublime Text editor, install my fork of [SublimeLinter-contrib-vale](https://github.com/dylan-k/SublimeLinter-contrib-vale).
 
