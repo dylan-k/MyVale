@@ -6,7 +6,8 @@ My collection of style-guide rules to use with Vale while writing. I have two go
 
 ## Installation
 
-- clone this repo into your `~/.config/vale/` directory
+- cd to `~/.config/` 
+- clone this repo to become `~/.config/vale/` directory
 - hardlink the config file from this working directory to its required location.  
   - mac/linux: `ln ~/.config/vale/.vale.ini ~/.vale.ini`
   - windows: `New-Item -ItemType HardLink -Path "C:\Users\USERNAME\.vale.ini" -Target "C:\Users\USERNAME\.config\vale\.vale.ini"`
@@ -15,8 +16,6 @@ My collection of style-guide rules to use with Vale while writing. I have two go
 
 ## Configuration
 
-- update submodule styles. `cd` to each and do `git pull origin master`
-
 - alias in `~/.bash_aliases` to edit Vale settings with Sublime Text:  
 `alias valestyles="cd ~/.config/vale/ && subl ."`
 
@@ -24,7 +23,8 @@ My collection of style-guide rules to use with Vale while writing. I have two go
 
 Rather than to change/edit a .yml file, disable it in your vale.ini file. If you're making a change, copy it to `styles/Custom` with the change. Otherwise, you run the risk of replacing a deleted rule during an update. My plan is to eventually have only the Custom style.
 
-Be careful not to replace any styles you've already removed.
+Be careful not to replace any styles
+- cd to `~/.config/`  you've already removed.
 
 ## Sources
 

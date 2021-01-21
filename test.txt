@@ -1,6 +1,6 @@
 # An example document 
 
-Vale Server works by enforcing externally-created *styles* such as the Microsoft Writing Style Guide. 
+Vale Server works by enforcing externally-created *styles* such as the Microsoft Writing Style Guide.  
 
 Styles consist of YAML  files, or "rules", that enforce a certain writing construct.
 
