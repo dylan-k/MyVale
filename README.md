@@ -2,22 +2,37 @@
 
 # MyVale
 
-My collection of style-guide rules to use with Vale while writing. I have two goals for this project. First, to make it easy to have my style guide with me and up-to-date on my laptop, at work, or at home. Second, my style guide is standing on the shoulders of giants, but I want to migrate my borrowed style rules into one collection. To begin with, I'm using a set of styles, but it results in contradictions and redundancies. 
+My collection of style-guide rules to use with Vale while writing. 
 
-## Installation
+## Installation (read all the way through)
 
+- make sure `vale` is installed i.e. `choco install vale`
 - cd to `~/.config/` 
 - clone this repo to become `~/.config/vale/` directory
 - hardlink the config file from this working directory to its required location.  
   - mac/linux: `ln ~/.config/vale/.vale.ini ~/.vale.ini`
   - windows: `New-Item -ItemType HardLink -Path "C:\Users\USERNAME\.vale.ini" -Target "C:\Users\USERNAME\.config\vale\.vale.ini"`
 - note the stylespath in that file, revise as needed
-- To use these style rules within the Sublime Text editor, install my fork of [SublimeLinter-contrib-vale](https://github.com/dylan-k/SublimeLinter-contrib-vale).
+
+Setup for Visual Studio Code
+
+- Install the Vale extension from https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server
+- working windows settings:
+```
+  "vale.server.serverURL": "",
+  "vale.core.useCLI": true,
+  "vale.valeCLI.path": "vale",
+  "vale.server.lintContext": -1,
+  "vale.server.provideFixes": false,
+  "vale.valeCLI.config": "C:\\Users\\dylan\\.vale.ini",
+  "vale.valeCLI.minAlertLevel": "suggestion",
+```
 
 ## Configuration
 
 - alias in `~/.bash_aliases` to edit Vale settings with Sublime Text:  
 `alias valestyles="cd ~/.config/vale/ && subl ."`
+- To use these style rules within the Sublime Text editor, install my fork of [SublimeLinter-contrib-vale](https://github.com/dylan-k/SublimeLinter-contrib-vale).
 
 ## Changes
 
@@ -25,6 +40,8 @@ Rather than to change/edit a .yml file, disable it in your vale.ini file. If you
 
 Be careful not to replace any styles
 - cd to `~/.config/`  you've already removed.
+
+This is useful for testing a style rule https://vale-studio.errata.ai/
 
 ## Sources
 
