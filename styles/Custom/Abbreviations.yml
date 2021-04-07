@@ -1,13 +1,14 @@
 ---
 extends: substitution
-message: Use “%s.”
+message: "Use '%s' instead of '%s'."
+link: https://content-guide.18f.gov/specific-words-and-phrases/
 ignorecase: false
-link: 'https://github.com/Homebrew/brew/blob/master/docs/Prose-Style-Guidelines.md#style-and-usage'
 level: error
-scope: text
 nonword: true
 swap:
-  '\beg\b': e.g.
-  '\bie\b': i.e.
-  'e\.g\.,': e.g.
-  'i\.e\.,': i.e.
+  '\beg\b': e.g.,
+  '\bie\b': i.e.,
+  'e\.g\.(?:[^,]|$)': e.g.,
+  'i\.e\.(?:[^,]|$)': i.e.,
+  'D\.C\.': DC
+  '\bUSA?\b': U.S.

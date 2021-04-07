@@ -1,4 +1,5 @@
 ---
+# source: 18F
 extends: substitution
 message: '%s'
 link: https://content-guide.18f.gov/plain-language/#words-to-avoid
@@ -23,7 +24,7 @@ swap:
   leverage: >
     Avoid using 'leverage' (unless you're using it in the financial sense).
   progress: What are you actually doing?
-  promote: Avoid using 'promote' (unless you’re talking about an ad campaign).
+  promote: Avoid using 'promote' (unless it's about getting a raise or a commercial).
   streamline: Avoid using 'streamline.'
   strengthening: >
     Avoid using 'strengthening' (unless you’re referring to bridges or other
@@ -33,3 +34,14 @@ swap:
     contact sport).
   touchpoint: Mention specific system components.
   transforming: What are you actually doing to change it?
+  'e(?:-| )mail': email
+  (?:illegals|illegal aliens): "'undocumented immigrants'"
+  back-end: "'back end'"
+  citizen: "'people' or 'The public'"
+  combating: "'working against' or 'fighting'"
+  countering: "'answering' or 'responding'"
+  dialogue: "'speaking(ing)'"
+  dropdown: "'drop-down' or 'drop down'"
+  execute: "'run' or 'do'"
+  open-source: "'open source'"
+  user testing: "'usability testing'"

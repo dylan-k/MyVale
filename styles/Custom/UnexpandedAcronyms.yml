@@ -1,11 +1,11 @@
 ---
+#source: 18F
 extends: conditional
-message: “%s” has no definition.
-description: "Spell out abbreviated words on first reference, followed by the abbreviation in parentheses."
-link: 'https://contribute.jquery.org/style-guide/prose/#grammar'
+message: "'%s' is an accronym that should be defined."
+link: https://content-guide.18f.gov/abbreviations-and-acronyms/
 level: warning
-first: \b([A-Z]{3,5})\b
-second: (?:\b[A-Z][a-z]+[']? )+\(([A-Z]{3,5})\)
+first: '\b([A-Z]{3,5})\b'
+second: '(?:\b[A-Z][a-z]+['']? )+\(([A-Z]{3,5})\)'
 exceptions:
   - ABC
   - ADD
@@ -22,9 +22,10 @@ exceptions:
   - EST
   - FAQ
   - FBI
+  - FBI
   - FIXME
-  - GOV
   - GNU
+  - GOV
   - HIV
   - HR
   - HTML
@@ -36,6 +37,7 @@ exceptions:
   - MLA
   - MLB
   - MTV
+  - NAACP
   - NAACP
   - NASA
   - NATO
@@ -58,6 +60,6 @@ exceptions:
   - URL
   - USA
   - USSR
+  - YAML
   - XML
   - XXX
-  - YAML
