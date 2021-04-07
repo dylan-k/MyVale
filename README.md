@@ -2,9 +2,9 @@
 
 # MyVale
 
-My collection of style-guide rules to use with Vale while writing. 
+My collection of style-guide rules to use with Vale while writing.
 
-## Installation (read all the way through)
+## Installation (Read All the Way Through)
 
 - make sure `vale` is installed i.e. `choco install vale`
 - cd to `~/.config/` 
@@ -14,7 +14,7 @@ My collection of style-guide rules to use with Vale while writing.
   - windows: `New-Item -ItemType HardLink -Path "C:\Users\USERNAME\.vale.ini" -Target "C:\Users\USERNAME\.config\vale\.vale.ini"`
 - note the stylespath in that file, revise as needed
 
-Setup for Visual Studio Code
+## Setup for Visual Studio Code
 
 - Install the Vale extension from https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server
 - working windows settings:
@@ -53,7 +53,8 @@ Tasks:
 
 - [ ] move these tasks to GitHub issues
 - [ ] remove redundant rules that occur across styles
-- [ ] remove contradictory rules, keeping what's preferred. 
+- [ ] remove contradictory rules
+- [ ] remove unwanted rules
 - [ ] combine into one custom style
 - [ ] make a rule for spelling exceptions
 - [ ] test readability rules
@@ -61,7 +62,7 @@ Tasks:
 - [x] check for headings in title case
 - [x] add a good example doc for testing
 - [ ] hyphen rules
-- [ ] rules for words that should not start a sentence
+- [ ] rules excluding some rules at start of sentence
 
 __
 dk
