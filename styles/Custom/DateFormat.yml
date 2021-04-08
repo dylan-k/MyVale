@@ -1,5 +1,6 @@
+#source: Google
 extends: existence
-message: "Use 'July 31, 2016' format, not '%s'."
+message: "Use 'July 11, 1980' format, not '%s'."
 link: 'https://developers.google.com/style/dates-times'
 ignorecase: true
 level: error

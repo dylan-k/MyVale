@@ -63,6 +63,7 @@ Tasks:
 - [x] add a good example doc for testing
 - [ ] hyphen rules
 - [ ] rules excluding some rules at start of sentence
+- [ ] upgrade American-spelling.yml to include the ones I do...
 
 __
 dk

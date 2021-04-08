@@ -14,3 +14,7 @@ tokens:
   - \bmine\b
   - \bwe\b
   - \bour\b
+  - we'(?:ve|re)
+  - ours?
+  - us
+  - let's

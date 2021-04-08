@@ -1,8 +1,14 @@
----
+#source: Google
 extends: existence
-message: 'Do not use “%s” at the end of headings.'
-link: https://github.com/cockroachdb/docs/blob/master/STYLE.md#capitalization-and-punctuation
+message: "Don't put a period at the end of a heading."
+link: 'https://developers.google.com/style/capitalization#capitalization-in-titles-and-headings'
+nonword: true
+level: error
 scope: heading
-level: warning
-raw:
-  - '(?:\:|\.)$'
+action:
+  name: edit
+  params:
+    - remove
+    - '.'
+tokens:
+  - '[a-z0-9][.](?:\s|$)'

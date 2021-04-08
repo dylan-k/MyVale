@@ -8,9 +8,9 @@ Styles consist of YAML  files, or "rules", that enforce a certain writing constr
 
 proselint is a linter for English prose that "places the world’s greatest writers and editors by your side." Here's a sample of what it checks for:  
 
-- "That's an extremely complete solution."  
+- "That's an extremely complete solution." 
 
-- "That has become increasingly less valuable." 
+- "That has become increasingly less valuable."
 
 Joblint tests job posts for issues with sexism, culture, expectations, and recruiter fails such as is what I think
 
