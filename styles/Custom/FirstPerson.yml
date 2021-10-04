@@ -1,7 +1,7 @@
 ---
 extends: existence
 message: Avoid first-person pronouns such as “%s.”
-link: 'https://developers.google.com/style/pronouns#personal-pronouns'
+link: "https://developers.google.com/style/pronouns#personal-pronouns"
 ignorecase: true
 level: suggestion
 nonword: true
@@ -15,6 +15,6 @@ tokens:
   - \bwe\b
   - \bour\b
   - we'(?:ve|re)
-  - ours?
-  - us
+  - \bours?
+  - \bus\b
   - let's

@@ -1,6 +1,6 @@
 extends: substitution
 message: "Use '%s' instead of '%s'."
-link: "https://web.archive.org/web/20140701081012/https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist"
+link: 'https://developers.google.com/style/abbreviations'
 ignorecase: true
 level: error
 nonword: true
@@ -9,5 +9,3 @@ action:
 swap:
   '\b(?:eg|e\.g\.)[\s,]': for example
   '\b(?:ie|i\.e\.)[\s,]': that is
-  '\betc\.': and so on
-  '\bvs\.': versus

@@ -1,6 +1,6 @@
 extends: existence
 message: "Do not use periods in all-uppercase abbreviations such as '%s'."
-link: 'https://www.ibm.com/developerworks/library/styleguidelines/index.html#N100DC'
+link: "https://web.archive.org/web/20140701081012/https://www.ibm.com/developerworks/library/styleguidelines/index.html#N100DC"
 level: error
 nonword: true
 tokens:

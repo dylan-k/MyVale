@@ -1,5 +1,5 @@
 # IBM
-A Vale-compatible implementation of [IBM's Developer Editorial Style Guide](https://www.ibm.com/developerworks/library/styleguidelines/index.html).
+A Vale-compatible implementation of [IBM's Developer Editorial Style Guide](https://web.archive.org/web/20140701081012/https://www.ibm.com/developerworks/library/styleguidelines/index.html).
 
 ## Getting Started
 
@@ -35,7 +35,7 @@ See [Usage](https://github.com/errata-ai/vale/#usage) for more information.
 
 ## Extension Points
 
-|   Check    |                    Implementation(s)                   |
-|:------------:|:---------------------------------------------------:|
-| [`existence`](https://errata-ai.github.io/vale/styles/#existence)  | [`Terms.yml`](https://github.com/errata-ai/IBM/blob/master/IBM/Terms.yml) |
-| [`substitution`](https://errata-ai.github.io/vale/styles/#substitution)  | [`Checkusage.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Checkusage.yml) |
+|                                  Check                                  |                                        Implementation(s)                                        |
+| :---------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: |
+|    [`existence`](https://errata-ai.github.io/vale/styles/#existence)    |            [`Terms.yml`](https://github.com/errata-ai/IBM/blob/master/IBM/Terms.yml)            |
+| [`substitution`](https://errata-ai.github.io/vale/styles/#substitution) | [`Checkusage.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Checkusage.yml) |
