@@ -1,0 +1,19 @@
+{
+  "author": "Dylan Kinnett",
+  "description": "clips overly cautious words and phrases from your writing",
+  "email": "dylan@nocategories.net",
+  "lang": "en",
+  "url": "https://github.com/dylan-k/hedgeclipper/archive/v1.0.zip",
+  "feed": "https://github.com/dylan-k/hedgeclipper/releases.atom",
+  "issues": "https://github.com/dylan-k/hedgeclipper/issues/new",
+  "license": "MIT",
+  "name": "hedgeclipper",
+  "sources": [
+    "https://github.com/defmethodinc/just-not-sorry",
+    "https://github.com/lexicalunit/linter-just-say-no",
+    "https://github.com/errata-ai/Microsoft"
+  ],
+  "vale_version": ">=1.0.0",
+  "coverage": 0.0,
+  "version": "0.1.0"
+}
