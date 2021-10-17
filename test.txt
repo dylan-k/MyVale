@@ -14,7 +14,7 @@ proselint is a linter for English prose that "places the world’s greatest writ
 
 Joblint tests job posts for issues with sexism, culture, expectations, and recruiter fails such as is what I think
 
-- "You should be comfortable with tight deadlines."
+- "You should be comfortable with tight deadlines." 
 
 - "He should have a background in mathematics."
 

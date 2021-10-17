@@ -5,6 +5,7 @@ link: https://typely.com/blog/hedging/
 ignorecase: true
 level: warning
 tokens:
+  - ', so to speak'
   - "!!!"
   - a bit
   - a little
@@ -230,3 +231,4 @@ tokens:
   - will
   - would
   - yes, but
+
