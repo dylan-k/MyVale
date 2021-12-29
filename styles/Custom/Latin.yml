@@ -1,4 +1,5 @@
 #source: Google
+# For a list of all options, see https://errata-ai.gitbook.io/vale/getting-started/styles
 extends: substitution
 message: "Use '%s' instead of '%s'."
 link: 'https://developers.google.com/style/abbreviations'
@@ -10,3 +11,6 @@ action:
 swap:
   '\b(?:eg|e\.g\.)[\s,]': for example
   '\b(?:ie|i\.e\.)[\s,]': that is
+  etc\.: and so on
+  et cetera: and so on
+

@@ -10,7 +10,7 @@ proselint is a linter for English prose that "places the world’s greatest writ
 
 - "That's an extremely complete solution." 
 
-- "That has become increasingly less valuable."
+- "That has become increasingly less valuable." 
 
 Joblint tests job posts for issues with sexism, culture, expectations, and recruiter fails such as is what I think
 
@@ -20,13 +20,17 @@ Joblint tests job posts for issues with sexism, culture, expectations, and recru
 
 I think it would seem in my opinion maybe. 
 
-sometimes you need an inline url like https://example.com
+sometimes you need an inline url like https://example.com 
 
-https://example.com   
+https://example.com  
+
+www.google.com 
+
+http://example.com
 
 a link like [example](https://example.com)
 
-or a link like <a href="https://example.com">foo</a>
+or a link like <a href="https://example.com">foo</a> 
 
 Remarkably few developers write well.
 
@@ -39,6 +43,8 @@ This changes the code so that it works.
 There is a use for this construction.
 
 There are uses for this construction.
+
+are not contractions can not contractions aren't contractions can't. 
 
 This sentence is simply terrible.
 
