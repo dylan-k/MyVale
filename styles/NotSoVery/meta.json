@@ -1,0 +1,13 @@
+{
+  "author": "Dylan Kinnett",
+  "description": "suggests alternative phrases for the word 'very'",
+  "email": "dylan@nocategories.net",
+  "lang": "en",
+  "name": "NotSoVery",
+  "sources": [
+    "https://www.losethevery.com/"
+  ],
+  "vale_version": ">=1.0.0",
+  "coverage": 0.0,
+  "version": "0.1.0"
+}
