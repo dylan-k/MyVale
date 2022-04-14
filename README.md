@@ -7,7 +7,7 @@ My collection of style-guide rules to use with Vale while writing.
 ## Installation (Read All the Way Through)
 
 - [install `vale`](https://docs.errata.ai/vale/install) and confirm via `vale -v`
-- do `cd ~/.config/` 
+- do `cd ~/.config/`
 - clone this repo to become `~/.config/vale/` directory
 - some styles are here as git submodules to keep them update, so:
   - `git submodule update --init --recursive` to initialize the submodules
@@ -19,7 +19,7 @@ My collection of style-guide rules to use with Vale while writing.
 
 ## Configuration
 
-- alias in `~/.bash_aliases` to edit Vale settings with Sublime Text:  
+- alias in `~/.bash_aliases` to edit Vale settings with Sublime Text:
 `alias valestyles="cd ~/.config/vale/ && subl ."`
 
 
@@ -36,11 +36,7 @@ My collection of style-guide rules to use with Vale while writing.
   "vale.valeCLI.config": "C:\\Users\\dylan\\.vale.ini",
   "vale.valeCLI.minAlertLevel": "suggestion",
 ```
-- Exclude the settings from VSCode's settings sync, because settings differ among environments.
-
-### Setup for Sublime Text
-
-To use Vale with the Sublime Text editor, install my fork of [SublimeLinter-contrib-vale](https://github.com/dylan-k/SublimeLinter-contrib-vale).
+- Exclude the settings from VSCode's settings sync, because settings differ across environments.
 
 ## Updates
 
@@ -48,9 +44,18 @@ Most of these styles come from other sources. Review each style's README file fo
 
 ## Changes
 
-If you change a style's .yml file, turn the rule off in `vale.ini` file and copy the .yml file to `styles/Custom`. Otherwise, you run the risk of replacing a deleted rule during an update. The goal is to merge and winnow the styles until the custom style is the only one.
+To change a rule:
+- copy the rule's `/yml` file into the `custom` directory
+- modify the rule as needed
+- add the original rule to the ignores list in .vale.ini
+- delete the original rule file
+- commit/push to git repo
 
-Don't replace any styles you've already removed. After updates, review the ignored style list and delete related files.
+If you change a style's .yml file, turn the rule off in `vale.ini` file and copy the .yml file to `styles/Custom`. Otherwise, you run the risk of replacing a deleted rule during an update.
+
+My goal is to merge and winnow the borrowed style sets until my custom set is the only one.
+
+
 
 ## Testing
 

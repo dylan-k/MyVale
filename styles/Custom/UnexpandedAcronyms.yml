@@ -1,11 +1,15 @@
 ---
 #source: 18F
 extends: conditional
-message: "'%s' is an accronym that should be defined."
+message: "Define acronyms and abbreviations (such as '%s') on first occurrence if they're likely to be unfamiliar."
 link: https://content-guide.18f.gov/abbreviations-and-acronyms/
-level: warning
-first: '\b([A-Z]{3,5})\b'
-second: '(?:\b[A-Z][a-z]+['']? )+\(([A-Z]{3,5})\)'
+level: suggestion
+ignorecase: false
+scope: sentence
+# Ensures that the existence of 'first' implies the existence of 'second'.
+first: '\b([A-Z]{3,5}s?)\b'
+second: '\(([A-Z]{3,5}s?)\)'
+# ... with the exception of these:
 exceptions:
   - ABC
   - ADD
