@@ -80,5 +80,5 @@ Tasks:
 - [ ] exclude some rules at start of sentences
 - [ ] upgrade American-spelling.yml to include the ones I do...
 
-__
+__  
 dk
