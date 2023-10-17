@@ -5,483 +5,483 @@ scope: sentence
 ignorecase: true
 # swap maps tokens in form of bad: good
 swap:
-very able: adept
-very able: cunning
-very angry: enraged
-very angry: fuming
-very angry: livid
-very annoying: aggravating
-very annoying: irritating
-very anxious: spooked
-very aroused: lascivious
-very arrogant: audacious
-very arrogant: brazen
-very arrogant: impudent
-very ashamed: contrite
-very ashamed: repentant
-very attractive: captivating
-very attractive: enchanting
-very attractive: enthralling
-very attractive: magnetic
-very attractive: tantalizing
-very awful: abominable
-very awful: atrocious
-very awful: deplorable
-very awful: dire
-very awful: harrowing
-very bad: abominable
-very bad: criminal
-very bad: detrimental
-very bad: dreadful
-very bad: vile
-very bad: wicked
-very beautiful: bewitching
-very beautiful: ravishing
-very beautiful: statuesque
-very beautiful: stunning
-very beautiful: sublime
-very big: enormous
-very big: hulking
-very big: momentous
-very big: strapping
-very big: thundering
-very big: walloping
-very bold: brazen
-very bold: enterprising
-very bold: gumptious
-very boring: dreary
-very boring: humdrum
-very boring: monotonous
-very boring: mundane
-very boring: tiresome
-very brave: resolute
-very brave: valiant
-very bright: beaming
-very bright: brilliant
-very bright: dazzling
-very bright: keen
-very busy: bustling
-very busy: engrossed
-very busy: restless
-very busy: slaving
-very calm: placid
-very calm: serene
-very calm: temperate
-very calm: zen
-very careful: deliberate
-very careful: meticulous
-very careful: scrupulous
-very careful: vigilant
-very cautious: calculating
-very cautious: circumspect
-very challenging: strenuous
-very clean: sparkling
-very clear: explicit
-very clear: overt
-very clear: precise
-very clearly: distinctly
-very clearly: overtly
-very clearly: precisely
-very clever: keen
-very clever: nimble
-very clever: quick-witted
-very clumsy: all thumbs
-very clumsy: bumbling
-very clumsy: unwieldy
-very cold: arctic
-very cold: freezing
-very cold: frigid
-very colorful: garish
-very colorful: gaudy
-very colorful: ostentatious
-very colorful: vivid
-very comfortable: contented
-very comfortable: relaxed
-very comfortable: snug
-very common: mundane
-very common: pedestrian
-very common: typical
-very complex: convoluted
-very complex: labyrinthine
-very concerned: exercised
-very concerned: perturbed
-very confused: befuddled
-very confused: bewildered
-very confused: flummoxed
-very confused: perplexed
-very cool: composed
-very cool: dandy
-very cool: nifty
-very cool: swell
-very cool: unflappable
-very courageous: adventurous
-very courageous: gutsy
-very crazy: delirious
-very crazy: hysterical
-very crazy: ludicrous
-very crazy: ridiculous
-very creepy: creepy
-very creepy: ghastly
-very crowded: brimming
-very crowded: jam-packed
-very crowded: stuffed
-very cruel: cold-blooded
-very cruel: heartless
-very cruel: merciless
-very cruel: wicked
-very curious: inquiring
-very curious: meddling
-very cute: dainty
-very dangerous: formidable
-very dangerous: perilous
-very dark: bleak
-very dark: morbid
-very dark: sinister
-very deeply: severely
-very deeply: vehemently
-very depressed: downcast
-very determined: unwavering
-very different: incomparable
-very different: peculiar
-very difficult: challenging
-very difficult: strenuous
-very dirty: disarrayed
-very dirty: disheveled
-very dirty: sullied
-very dirty: unkempt
-very disgusted: abhorred
-very disgusted: outraged
-very disgusted: repelled
-very disgusted: repulsed
-very dumb: feebleminded
-very dumb: moronic
-very early: fresh
-very early: precipitately
-very easy: effortless
-very easy: picnic
-very embarrassed: abashed
-very embarrassed: humiliated
-very embarrassed: repentant
-very encouraging: propitious
-very energetic: rocking
-very energetic: spirited
-very energetic: spry
-very entertaining: captivating
-very entertaining: delightful
-very entertaining: engrossing
-very entertaining: gripping
-very entertaining: thrilling
-very enthusiastic: exuberant
-very enthusiastic: fervent
-very enthusiastic: rabid
-very enthusiastic: zealous
-very envious: yearning
-very evil: atrocious
-very evil: damnable
-very evil: repugnant
-very evil: vile
-very evil: wicked
-very excited: feverish
-very excited: inflamed
-very excited: thrilled
-very exciting: astonishing
-very exciting: inspiring
-very expensive: exorbitant
-very expensive: lavish
-very fair: honorable
-very fair: principled
-very faithful: ardent
-very faithful: enduring
-very faithful: unwavering
-very famous: eminent
-very famous: exalted
-very famous: peerless
-very famous: preeminent
-very famous: renowned
-very fancy: baroque
-very fancy: lavish
-very fancy: ornate
-very fancy: ostentatious
-very fancy: sumptuous
-very fast: breakneck
-very fast: dashing
-very fast: nimble
-very fat: bulging
-very fat: porcine
-very filthy: despicable
-very filthy: putrid
-very filthy: repulsive
-very foolish: absurd
-very foolish: ludicrous
-very foolish: preposterous
-very fragile: frail
-very frail: decrepit
-very frequent: ceaseless
-very frequent: incessant
-very frequent: perpetual
-very friendly: benign
-very frustrated: irked
-very frustrated: vexed
-very frustrating: infuriating
-very frustrating: vexing
-very fun: intoxicating
-very fun: thrilling
-very funny: hysterical
-very gay: bombastic
-very gay: glamorous
-very gentle: benign
-very gentle: serene
-very gentle: subdued
-very gentle: tame
-very glad: beaming
-very glad: contented
-very glad: gleeful
-very good: exceptional
-very good: marvelous
-very good: splendid
-very good: sterling
-very good: super
-very handsome: sharp
-very handsome: stunning
-very happy: delighted
-very happy: elated
-very happy: intoxicated
-very happy: jubilant
-very happy: overjoyed
-very hard: arduous
-very hard: demanding
-very hard: formidable
-very hard: grueling
-very healthy: exuberant
-very healthy: prospering
-very helpful: invaluable
-very high: grand
-very high: steep
-very hungry: ravenous
-very hungry: starving
-very hurt: battered
-very ill: lifeless
-very ill: listless
-very important: critical
-very important: distinguished
-very important: imperative
-very important: paramount
-very intelligent: adept
-very intelligent: bright
-very intelligent: brilliant
-very intelligent: gifted
-very intelligent: ingenious
-very intelligent: pointed
-very interesting: alluring
-very interesting: enchanting
-very interesting: engrossing
-very interesting: gripping
-very interesting: provocative
-very interesting: riveting
-very interesting: stimulating
-very jealous: yearning
-very joyful: ecstatic
-very joyful: effervescent
-very joyful: elated
-very joyful: euphoric
-very joyful: jubilant
-very joyful: rapturous
-very kind: benevolent
-very kind: considerate
-very large: enormous
-very large: hulking
-very large: momentous
-very large: strapping
-very large: thundering
-very large: walloping
-very lazy: apathetic
-very lazy: comatose
-very little: diminutive
-very little: infinitesimal
-very little: meager
-very little: paltry
-very little: tiny
-very lonely: desolate
-very lonely: destitute
-very long: dragging
-very long: far-reaching
-very long: long-winded
-very lovely: captivating
-very lovely: enchanting
-very lovely: exquisite
-very lucky: fortunate
-very mad: enraged
-very mad: frenzied
-very mad: fuming
-very mad: furious
-very mad: livid
-very mad: psychotic
-very mean: malicious
-very mean: malign
-very mean: vile
-very necessary: imminent
-very necessary: imperative
-very necessary: vital
-very nervous: distressed
-very nervous: high-strung
-very nervous: jittery
-very nervous: neurotic
-very new: cutting edge
-very new: state-of-the-art
-very nice: alluring
-very nice: delightful
-very obedient: resigned
-very obedient: submissive
-very obnoxious: loathsome
-very obnoxious: nauseating
-very obnoxious: reprehensible
-very odd: incomparable
-very odd: peculiar
-very old: decrepit
-very old: dilapidated
-very old: geriatric
-very open: gaping
-very open: revealed
-very outgoing: unrestrained
-very outrageous: unconscionable
-very outspoken: forthright
-very outspoken: rambunctious
-very outspoken: unreserved
-very outstanding: preeminent
-very painful: agonizing
-very painful: tortuous
-very perfect: foolproof
-very perfect: sublime
-very plain: austere
-very plain: blunt
-very pleasant: delectable
-very pleasant: enticing
-very poor: indigent
-very popular: prominent
-very popular: renowned
-very powerful: dominant
-very powerful: preeminent
-very pretty: beautiful
-very pretty: bewitching
-very pretty: dazzling
-very pretty: elegant
-very pretty: ravishing
-very pretty: statuesque
-very pretty: stunning
-very pretty: sublime
-very public: exposed
-very public: universal
-very quaint: bizarre
-very quaint: enchanting
-very quaint: whimsical
-very quiet: faint
-very quiet: muted
-very quiet: reserved
-very quiet: reticent
-very quiet: taciturn
-very rich: lavish
-very rich: opulent
-very rich: prosperous
-very rich: sumptuous
-very right: indubitable
-very right: perfect
-very rude: discourteous
-very rude: ill-mannered
-very rude: vulgar
-very sad: dispirited
-very sad: forlorn
-very sad: gloomy
-very sad: miserable
-very sad: somber
-very scary: bloodcurdling
-very scary: horrifying
-very selfish: narcissistic
-very selfish: small-minded
-very sexy: provocative
-very sexy: seductive
-very shiny: lustrous
-very shiny: sparkling
-very shy: apprehensive
-very shy: bashful
-very shy: coy
-very shy: sheepish
-very silly: frivolous
-very silly: ludicrous
-very simple: child's play
-very simple: elementary
-very simple: straightforward
-very skinny: emaciated
-very skinny: scrawny
-very sleepy: exhausted
-very slow: lackadaisical
-very slow: ponderous
-very slow: protracted
-very slow: sluggish
-very small: insignificant
-very small: minute
-very small: modest
-very smart: adept
-very smart: bright
-very smart: brilliant
-very smart: gifted
-very smart: ingenious
-very smelly: foul
-very smelly: pungent
-very smelly: putrid
-very smelly: rank
-very strange: bizarre
-very strange: extraordinary
-very strange: peculiar
-very stupid: half-baked
-very stupid: ludicrous
-very stupid: mindless
-very stupid: nonsensical
-very successful: reigning
-very successful: undefeated
-very talented: expert
-very talented: ingenious
-very talented: masterful
-very tame: docile
-very tame: harmless
-very tame: submissive
-very tasty: divine
-very tasty: heavenly
-very tasty: pungent
-very tender: delicate
-very tender: green
-very tender: raw
-very tense: taut
-very tense: up the wall
-very thankful: beholden
-very thankful: grateful
-very thirsty: cottonmouthed
-very thoughtful: circumspect
-very thoughtful: indulgent
-very tired: flagging
-very tired: spent
-very tough: resilient
-very tough: seasoned
-very troubled: neurotic
-very troubled: psychotic
-very troubled: tormented
-very ugly: foul
-very ugly: grotesque
-very ugly: horrid
-very ugly: unsightly
-very unique: exceptional
-very unique: incomparable
-very upset: in disarray
-very uptight: exacting
-very uptight: prudish
-very useful: instrumental
-very useless: expendable
-very useless: meaningless
-very wild: feral
-very wild: tempestuous
-very willing: ardent
-very willing: enthusiastic
-very willing: fervent
-very wrong: flawed
-very wrong: reprehensible
-very young: green
-very young: pubescent
+  "very able": "adept"
+  "very able": "cunning"
+  "very angry": "enraged"
+  "very angry": "fuming"
+  "very angry": "livid"
+  "very annoying": "aggravating"
+  "very annoying": "irritating"
+  "very anxious": "spooked"
+  "very aroused": "lascivious"
+  "very arrogant": "audacious"
+  "very arrogant": "brazen"
+  "very arrogant": "impudent"
+  "very ashamed": "contrite"
+  "very ashamed": "repentant"
+  "very attractive": "captivating"
+  "very attractive": "enchanting"
+  "very attractive": "enthralling"
+  "very attractive": "magnetic"
+  "very attractive": "tantalizing"
+  "very awful": "abominable"
+  "very awful": "atrocious"
+  "very awful": "deplorable"
+  "very awful": "dire"
+  "very awful": "harrowing"
+  "very bad": "abominable"
+  "very bad": "criminal"
+  "very bad": "detrimental"
+  "very bad": "dreadful"
+  "very bad": "vile"
+  "very bad": "wicked"
+  "very beautiful": "bewitching"
+  "very beautiful": "ravishing"
+  "very beautiful": "statuesque"
+  "very beautiful": "stunning"
+  "very beautiful": "sublime"
+  "very big": "enormous"
+  "very big": "hulking"
+  "very big": "momentous"
+  "very big": "strapping"
+  "very big": "thundering"
+  "very big": "walloping"
+  "very bold": "brazen"
+  "very bold": "enterprising"
+  "very bold": "gumptious"
+  "very boring": "dreary"
+  "very boring": "humdrum"
+  "very boring": "monotonous"
+  "very boring": "mundane"
+  "very boring": "tiresome"
+  "very brave": "resolute"
+  "very brave": "valiant"
+  "very bright": "beaming"
+  "very bright": "brilliant"
+  "very bright": "dazzling"
+  "very bright": "keen"
+  "very busy": "bustling"
+  "very busy": "engrossed"
+  "very busy": "restless"
+  "very busy": "slaving"
+  "very calm": "placid"
+  "very calm": "serene"
+  "very calm": "temperate"
+  "very calm": "zen"
+  "very careful": "deliberate"
+  "very careful": "meticulous"
+  "very careful": "scrupulous"
+  "very careful": "vigilant"
+  "very cautious": "calculating"
+  "very cautious": "circumspect"
+  "very challenging": "strenuous"
+  "very clean": "sparkling"
+  "very clear": "explicit"
+  "very clear": "overt"
+  "very clear": "precise"
+  "very clearly": "distinctly"
+  "very clearly": "overtly"
+  "very clearly": "precisely"
+  "very clever": "keen"
+  "very clever": "nimble"
+  "very clever": "quick-witted"
+  "very clumsy": "all thumbs"
+  "very clumsy": "bumbling"
+  "very clumsy": "unwieldy"
+  "very cold": "arctic"
+  "very cold": "freezing"
+  "very cold": "frigid"
+  "very colorful": "garish"
+  "very colorful": "gaudy"
+  "very colorful": "ostentatious"
+  "very colorful": "vivid"
+  "very comfortable": "contented"
+  "very comfortable": "relaxed"
+  "very comfortable": "snug"
+  "very common": "mundane"
+  "very common": "pedestrian"
+  "very common": "typical"
+  "very complex": "convoluted"
+  "very complex": "labyrinthine"
+  "very concerned": "exercised"
+  "very concerned": "perturbed"
+  "very confused": "befuddled"
+  "very confused": "bewildered"
+  "very confused": "flummoxed"
+  "very confused": "perplexed"
+  "very cool": "composed"
+  "very cool": "dandy"
+  "very cool": "nifty"
+  "very cool": "swell"
+  "very cool": "unflappable"
+  "very courageous": "adventurous"
+  "very courageous": "gutsy"
+  "very crazy": "delirious"
+  "very crazy": "hysterical"
+  "very crazy": "ludicrous"
+  "very crazy": "ridiculous"
+  "very creepy": "creepy"
+  "very creepy": "ghastly"
+  "very crowded": "brimming"
+  "very crowded": "jam-packed"
+  "very crowded": "stuffed"
+  "very cruel": "cold-blooded"
+  "very cruel": "heartless"
+  "very cruel": "merciless"
+  "very cruel": "wicked"
+  "very curious": "inquiring"
+  "very curious": "meddling"
+  "very cute": "dainty"
+  "very dangerous": "formidable"
+  "very dangerous": "perilous"
+  "very dark": "bleak"
+  "very dark": "morbid"
+  "very dark": "sinister"
+  "very deeply": "severely"
+  "very deeply": "vehemently"
+  "very depressed": "downcast"
+  "very determined": "unwavering"
+  "very different": "incomparable"
+  "very different": "peculiar"
+  "very difficult": "challenging"
+  "very difficult": "strenuous"
+  "very dirty": "disarrayed"
+  "very dirty": "disheveled"
+  "very dirty": "sullied"
+  "very dirty": "unkempt"
+  "very disgusted": "abhorred"
+  "very disgusted": "outraged"
+  "very disgusted": "repelled"
+  "very disgusted": "repulsed"
+  "very dumb": "feebleminded"
+  "very dumb": "moronic"
+  "very early": "fresh"
+  "very early": "precipitately"
+  "very easy": "effortless"
+  "very easy": "picnic"
+  "very embarrassed": "abashed"
+  "very embarrassed": "humiliated"
+  "very embarrassed": "repentant"
+  "very encouraging": "propitious"
+  "very energetic": "rocking"
+  "very energetic": "spirited"
+  "very energetic": "spry"
+  "very entertaining": "captivating"
+  "very entertaining": "delightful"
+  "very entertaining": "engrossing"
+  "very entertaining": "gripping"
+  "very entertaining": "thrilling"
+  "very enthusiastic": "exuberant"
+  "very enthusiastic": "fervent"
+  "very enthusiastic": "rabid"
+  "very enthusiastic": "zealous"
+  "very envious": "yearning"
+  "very evil": "atrocious"
+  "very evil": "damnable"
+  "very evil": "repugnant"
+  "very evil": "vile"
+  "very evil": "wicked"
+  "very excited": "feverish"
+  "very excited": "inflamed"
+  "very excited": "thrilled"
+  "very exciting": "astonishing"
+  "very exciting": "inspiring"
+  "very expensive": "exorbitant"
+  "very expensive": "lavish"
+  "very fair": "honorable"
+  "very fair": "principled"
+  "very faithful": "ardent"
+  "very faithful": "enduring"
+  "very faithful": "unwavering"
+  "very famous": "eminent"
+  "very famous": "exalted"
+  "very famous": "peerless"
+  "very famous": "preeminent"
+  "very famous": "renowned"
+  "very fancy": "baroque"
+  "very fancy": "lavish"
+  "very fancy": "ornate"
+  "very fancy": "ostentatious"
+  "very fancy": "sumptuous"
+  "very fast": "breakneck"
+  "very fast": "dashing"
+  "very fast": "nimble"
+  "very fat": "bulging"
+  "very fat": "porcine"
+  "very filthy": "despicable"
+  "very filthy": "putrid"
+  "very filthy": "repulsive"
+  "very foolish": "absurd"
+  "very foolish": "ludicrous"
+  "very foolish": "preposterous"
+  "very fragile": "frail"
+  "very frail": "decrepit"
+  "very frequent": "ceaseless"
+  "very frequent": "incessant"
+  "very frequent": "perpetual"
+  "very friendly": "benign"
+  "very frustrated": "irked"
+  "very frustrated": "vexed"
+  "very frustrating": "infuriating"
+  "very frustrating": "vexing"
+  "very fun": "intoxicating"
+  "very fun": "thrilling"
+  "very funny": "hysterical"
+  "very gay": "bombastic"
+  "very gay": "glamorous"
+  "very gentle": "benign"
+  "very gentle": "serene"
+  "very gentle": "subdued"
+  "very gentle": "tame"
+  "very glad": "beaming"
+  "very glad": "contented"
+  "very glad": "gleeful"
+  "very good": "exceptional"
+  "very good": "marvelous"
+  "very good": "splendid"
+  "very good": "sterling"
+  "very good": "super"
+  "very handsome": "sharp"
+  "very handsome": "stunning"
+  "very happy": "delighted"
+  "very happy": "elated"
+  "very happy": "intoxicated"
+  "very happy": "jubilant"
+  "very happy": "overjoyed"
+  "very hard": "arduous"
+  "very hard": "demanding"
+  "very hard": "formidable"
+  "very hard": "grueling"
+  "very healthy": "exuberant"
+  "very healthy": "prospering"
+  "very helpful": "invaluable"
+  "very high": "grand"
+  "very high": "steep"
+  "very hungry": "ravenous"
+  "very hungry": "starving"
+  "very hurt": "battered"
+  "very ill": "lifeless"
+  "very ill": "listless"
+  "very important": "critical"
+  "very important": "distinguished"
+  "very important": "imperative"
+  "very important": "paramount"
+  "very intelligent": "adept"
+  "very intelligent": "bright"
+  "very intelligent": "brilliant"
+  "very intelligent": "gifted"
+  "very intelligent": "ingenious"
+  "very intelligent": "pointed"
+  "very interesting": "alluring"
+  "very interesting": "enchanting"
+  "very interesting": "engrossing"
+  "very interesting": "gripping"
+  "very interesting": "provocative"
+  "very interesting": "riveting"
+  "very interesting": "stimulating"
+  "very jealous": "yearning"
+  "very joyful": "ecstatic"
+  "very joyful": "effervescent"
+  "very joyful": "elated"
+  "very joyful": "euphoric"
+  "very joyful": "jubilant"
+  "very joyful": "rapturous"
+  "very kind": "benevolent"
+  "very kind": "considerate"
+  "very large": "enormous"
+  "very large": "hulking"
+  "very large": "momentous"
+  "very large": "strapping"
+  "very large": "thundering"
+  "very large": "walloping"
+  "very lazy": "apathetic"
+  "very lazy": "comatose"
+  "very little": "diminutive"
+  "very little": "infinitesimal"
+  "very little": "meager"
+  "very little": "paltry"
+  "very little": "tiny"
+  "very lonely": "desolate"
+  "very lonely": "destitute"
+  "very long": "dragging"
+  "very long": "far-reaching"
+  "very long": "long-winded"
+  "very lovely": "captivating"
+  "very lovely": "enchanting"
+  "very lovely": "exquisite"
+  "very lucky": "fortunate"
+  "very mad": "enraged"
+  "very mad": "frenzied"
+  "very mad": "fuming"
+  "very mad": "furious"
+  "very mad": "livid"
+  "very mad": "psychotic"
+  "very mean": "malicious"
+  "very mean": "malign"
+  "very mean": "vile"
+  "very necessary": "imminent"
+  "very necessary": "imperative"
+  "very necessary": "vital"
+  "very nervous": "distressed"
+  "very nervous": "high-strung"
+  "very nervous": "jittery"
+  "very nervous": "neurotic"
+  "very new": "cutting edge"
+  "very new": "state-of-the-art"
+  "very nice": "alluring"
+  "very nice": "delightful"
+  "very obedient": "resigned"
+  "very obedient": "submissive"
+  "very obnoxious": "loathsome"
+  "very obnoxious": "nauseating"
+  "very obnoxious": "reprehensible"
+  "very odd": "incomparable"
+  "very odd": "peculiar"
+  "very old": "decrepit"
+  "very old": "dilapidated"
+  "very old": "geriatric"
+  "very open": "gaping"
+  "very open": "revealed"
+  "very outgoing": "unrestrained"
+  "very outrageous": "unconscionable"
+  "very outspoken": "forthright"
+  "very outspoken": "rambunctious"
+  "very outspoken": "unreserved"
+  "very outstanding": "preeminent"
+  "very painful": "agonizing"
+  "very painful": "tortuous"
+  "very perfect": "foolproof"
+  "very perfect": "sublime"
+  "very plain": "austere"
+  "very plain": "blunt"
+  "very pleasant": "delectable"
+  "very pleasant": "enticing"
+  "very poor": "indigent"
+  "very popular": "prominent"
+  "very popular": "renowned"
+  "very powerful": "dominant"
+  "very powerful": "preeminent"
+  "very pretty": "beautiful"
+  "very pretty": "bewitching"
+  "very pretty": "dazzling"
+  "very pretty": "elegant"
+  "very pretty": "ravishing"
+  "very pretty": "statuesque"
+  "very pretty": "stunning"
+  "very pretty": "sublime"
+  "very public": "exposed"
+  "very public": "universal"
+  "very quaint": "bizarre"
+  "very quaint": "enchanting"
+  "very quaint": "whimsical"
+  "very quiet": "faint"
+  "very quiet": "muted"
+  "very quiet": "reserved"
+  "very quiet": "reticent"
+  "very quiet": "taciturn"
+  "very rich": "lavish"
+  "very rich": "opulent"
+  "very rich": "prosperous"
+  "very rich": "sumptuous"
+  "very right": "indubitable"
+  "very right": "perfect"
+  "very rude": "discourteous"
+  "very rude": "ill-mannered"
+  "very rude": "vulgar"
+  "very sad": "dispirited"
+  "very sad": "forlorn"
+  "very sad": "gloomy"
+  "very sad": "miserable"
+  "very sad": "somber"
+  "very scary": "bloodcurdling"
+  "very scary": "horrifying"
+  "very selfish": "narcissistic"
+  "very selfish": "small-minded"
+  "very sexy": "provocative"
+  "very sexy": "seductive"
+  "very shiny": "lustrous"
+  "very shiny": "sparkling"
+  "very shy": "apprehensive"
+  "very shy": "bashful"
+  "very shy": "coy"
+  "very shy": "sheepish"
+  "very silly": "frivolous"
+  "very silly": "ludicrous"
+  "very simple": "child's play"
+  "very simple": "elementary"
+  "very simple": "straightforward"
+  "very skinny": "emaciated"
+  "very skinny": "scrawny"
+  "very sleepy": "exhausted"
+  "very slow": "lackadaisical"
+  "very slow": "ponderous"
+  "very slow": "protracted"
+  "very slow": "sluggish"
+  "very small": "insignificant"
+  "very small": "minute"
+  "very small": "modest"
+  "very smart": "adept"
+  "very smart": "bright"
+  "very smart": "brilliant"
+  "very smart": "gifted"
+  "very smart": "ingenious"
+  "very smelly": "foul"
+  "very smelly": "pungent"
+  "very smelly": "putrid"
+  "very smelly": "rank"
+  "very strange": "bizarre"
+  "very strange": "extraordinary"
+  "very strange": "peculiar"
+  "very stupid": "half-baked"
+  "very stupid": "ludicrous"
+  "very stupid": "mindless"
+  "very stupid": "nonsensical"
+  "very successful": "reigning"
+  "very successful": "undefeated"
+  "very talented": "expert"
+  "very talented": "ingenious"
+  "very talented": "masterful"
+  "very tame": "docile"
+  "very tame": "harmless"
+  "very tame": "submissive"
+  "very tasty": "divine"
+  "very tasty": "heavenly"
+  "very tasty": "pungent"
+  "very tender": "delicate"
+  "very tender": "green"
+  "very tender": "raw"
+  "very tense": "taut"
+  "very tense": "up the wall"
+  "very thankful": "beholden"
+  "very thankful": "grateful"
+  "very thirsty": "cottonmouthed"
+  "very thoughtful": "circumspect"
+  "very thoughtful": "indulgent"
+  "very tired": "flagging"
+  "very tired": "spent"
+  "very tough": "resilient"
+  "very tough": "seasoned"
+  "very troubled": "neurotic"
+  "very troubled": "psychotic"
+  "very troubled": "tormented"
+  "very ugly": "foul"
+  "very ugly": "grotesque"
+  "very ugly": "horrid"
+  "very ugly": "unsightly"
+  "very unique": "exceptional"
+  "very unique": "incomparable"
+  "very upset": "in disarray"
+  "very uptight": "exacting"
+  "very uptight": "prudish"
+  "very useful": "instrumental"
+  "very useless": "expendable"
+  "very useless": "meaningless"
+  "very wild": "feral"
+  "very wild": "tempestuous"
+  "very willing": "ardent"
+  "very willing": "enthusiastic"
+  "very willing": "fervent"
+  "very wrong": "flawed"
+  "very wrong": "reprehensible"
+  "very young": "green"
+  "very young": "pubescent"
