@@ -8,10 +8,10 @@ My collection of style-guide rules to use with Vale while writing.
 
 - [install `vale`](https://docs.errata.ai/vale/install) and confirm via `vale -v`
 - do `cd ~/.config/`
-- clone this repo to `~/.config/vale/` `git clone git@github.com:dylan-k/MyVale.git vale`
+- cd to `~/.config/` and clone the repo `git clone git@github.com:dylan-k/MyVale.git vale`. This will creat `~/.config/vale/` directory
 - hardlink the config file from the git repository folder to its required location. The hardlink ensures version-control for the file, while keeping it for Vale to use at the default location. (alternately: `vale --config='some/file/path/.vale.ini` )
   - mac/linux: `ln ~/.config/vale/.vale.ini ~/.vale.ini`
-  - windows: `New-Item -ItemType HardLink -Path "C:\Users\USERNAME\.vale.ini" -Target "C:\Users\USERNAME\.config\vale\.vale.ini"`
+  - windows: `New-Item -ItemType HardLink -Path "C:\Users\%USERNAME%\.vale.ini" -Target "C:\Users\%USERNAME%\.config\vale\.vale.ini"`
 - note the value of `stylespath` in the `.vale.ini` file and revise as needed
 
 ## Configuration
