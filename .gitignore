@@ -2,3 +2,13 @@
 # .vale.ini
 .gitmodules
 native/vale-native.exe
+
+# ignore styles that vale can manage as packages
+styles/alex/
+styles/Google/
+styles/Hugo
+styles/Joblint/
+styles/Microsoft/
+styles/proselint/
+styles/Readability/
+styles/write-good/
