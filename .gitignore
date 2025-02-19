@@ -6,9 +6,12 @@ native/vale-native.exe
 # ignore styles that vale can manage as packages
 styles/alex/
 styles/Google/
-styles/Hugo
+styles/Hugo/
 styles/Joblint/
 styles/Microsoft/
+styles/Openly/
 styles/proselint/
 styles/Readability/
 styles/write-good/
+styles/.vale-config/6-Hugo.ini
+styles/.vale-config/7-MDX.ini
