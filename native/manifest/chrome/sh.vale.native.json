@@ -1,9 +1,7 @@
 {
   "name": "sh.vale.native",
   "description": "A native messaging for the Vale CLI.",
-  "path": "C:\\Users\\Dylan\\AppData\\Local\\vale\\native\\vale-native.exe",
+  "path": "%USERPROFILE%\\AppData\\Local\\vale\\native\\vale-native.exe",
   "type": "stdio",
-  "allowed_origins": [
-    "chrome-extension://kfmjcegeklidlnjoechfggipjjjahedj/"
-  ]
+  "allowed_origins": ["chrome-extension://kfmjcegeklidlnjoechfggipjjjahedj/"]
 }
