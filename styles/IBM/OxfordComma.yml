@@ -1,6 +1,0 @@
-extends: existence
-message: "Use the Oxford comma in '%s'."
-link: "https://web.archive.org/web/20140701081012/https://www.ibm.com/developerworks/library/styleguidelines/index.html#N106BF"
-level: suggestion
-tokens:
-  - '(?:[^,]+,){1,}\s\w+\sand'
