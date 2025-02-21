@@ -1,81 +1,149 @@
 
 
-# MyVale
-
-My collection of style-guide rules to use with Vale while writing.
-
-## Installation (Read All the Way Through)
-
-- [install `vale`](https://docs.errata.ai/vale/install) and confirm via `vale -v`
-- do `cd ~/.config/`
-- cd to `~/.config/` and clone the repo `git clone git@github.com:dylan-k/MyVale.git vale`. This will creat `~/.config/vale/` directory
-- hardlink the config file from the git repository folder to its required location. The hardlink ensures version-control for the file, while keeping it for Vale to use at the default location. (alternately: `vale --config='some/file/path/.vale.ini` )
-  - mac/linux: `ln ~/.config/vale/.vale.ini ~/.vale.ini`
-  - windows: `New-Item -ItemType HardLink -Path "C:\Users\%USERNAME%\.vale.ini" -Target "C:\Users\%USERNAME%\.config\vale\.vale.ini"`
-- note the value of `stylespath` in the `.vale.ini` file and revise as needed
-
-## Configuration
-
-- alias in `~/.bash_aliases` to edit Vale settings with Sublime Text:
-`alias valestyles="cd ~/.config/vale/ && subl ."`
 
 
-### Setup for Visual Studio Code
+MyVale
+================================================================================
 
-- Install the Vale extension from https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server
-- working windows settings:
+A personal collection of style-guide rules for use with the Vale linter.
+
+Use *MyVale* to check and enforce writing conventions across your documents. This repository contains custom and borrowed rules, along with a configuration file that Vale uses by default. It serves as an example of how to work with Vale using personalized style rules.
+
+
+Prerequisites
+--------------------------------------------------------------------------------
+
+  - [Vale](https://vale.sh/docs/install) should be installed (for example, via Scoop or another package manager). Confirm that Vale is available on your system's `PATH`:
+
+  ```bash
+  vale -v
+  ```
+
+  - Git (or a Git client) should be installed to clone and manage this repository.
+
+  - (Optional) Visual Studio Code with the [Vale extension for VSCode](https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vale-vscode).
+
+
+Installation
+--------------------------------------------------------------------------------
+
+### Clone the repository
+
+Navigate to your `.config` directory (or the Windows equivalent):
+
+```bash
+cd ~/.config/
 ```
-  "vale.server.serverURL": "",
-  "vale.core.useCLI": true,
-  "vale.valeCLI.path": "vale",
-  "vale.server.lintContext": -1,
-  "vale.server.provideFixes": false,
-  "vale.valeCLI.config": "C:\\Users\\dylan\\.vale.ini",
-  "vale.valeCLI.minAlertLevel": "suggestion",
+
+Then, clone the repository:
+
+```bash
+git clone git@github.com:dylan-k/MyVale.git vale
 ```
-- Exclude the settings from VSCode's settings sync, because settings differ across environments.
 
-## Updates
+This command creates a `~/.config/vale/` directory that holds your custom style rules.
 
-Most of these styles come from other sources. Review each style's README file for instructions. The typical method: download the style's GitHub repository and copy its styles directory into ``styles``.
+### Link the configuration file
 
-## Changes
+Vale searches for your global `.vale.ini` in different directories, depending on your operating system:
 
-To change a rule:
-- copy the rule's `/yml` file into the `custom` directory
-- modify the rule as needed
-- add the original rule to the ignores list in .vale.ini
-- delete the original rule file
-- commit/push to git repo
+  - **Windows**: `%LOCALAPPDATA%\vale\.vale.ini`
+  - **macOS**: `$HOME/Library/Application Support/vale/.vale.ini`
+  - **Unix**: `$XDG_CONFIG_HOME/vale/.vale.ini`
 
-If you change a style's .yml file, turn the rule off in `vale.ini` file and copy the .yml file to `styles/Custom`. Otherwise, you run the risk of replacing a deleted rule during an update.
+Run `vale ls-dirs` to see the exact locations Vale checks on your system.
 
-My goal is to merge and winnow the borrowed style sets until my custom set is the only one.
+Create a hard link (`.vale.ini`) so changes remain under version control:
+
+**Linux/macOS**:
+
+```bash
+ln ~/.config/vale/.vale.ini ~/.vale.ini
+```
+
+**Windows (PowerShell)**:
+
+```powershell
+New-Item -ItemType HardLink -Path "$Env:USERPROFILE\.vale.ini" -Target "$Env:USERPROFILE\.config\vale\.vale.ini"
+```
+
+### Verify the StylesPath setting
+
+Check the value of `StylesPath` in your `.vale.ini` file. By default, it should point to `~/.config/vale/styles`. Update if necessary.
+
+### Initialize your local config
+
+Once you have your local `.vale.ini` in the directory of your choice, run
+
+```
+vale sync
+```
+
+from the command line to load or initialize it.
 
 
+Configuration Tips
+--------------------------------------------------------------------------------
 
-## Testing
+### Custom alias (optional)
 
-This is useful for testing a style rule https://vale-studio.errata.ai/
+You can add an alias to quickly edit Vale settings:
 
-## Sources
+```bash
+alias valestyles="cd ~/.config/vale && code ."
+```
 
-- https://github.com/testthedocs/vale-styles
-- https://github.com/errata-ai/styles
+Adjust this  to match your preferred editor, operating system, and so on.
 
-Tasks:
+### Using MyVale with VS Code
+
+To integrate Vale into Visual Studio Code, install the [Vale extension](https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server) and configure it:
+
+```json
+// Example settings.json snippet (Windows)
+"vale.server.serverURL": "",
+"vale.core.useCLI": true,
+"vale.valeCLI.path": "vale",
+"vale.server.lintContext": -1,
+"vale.server.provideFixes": false,
+"vale.valeCLI.config": "%USERPROFILE%\\.vale.ini",
+"vale.valeCLI.minAlertLevel": "suggestion"
+```
+
+**Tip:** Exclude your Vale settings from VS Code's settings sync if you plan to use different paths or configurations on other machines.
 
 
-- [ ] move these tasks to GitHub issues
-- [ ] remove redundant rules that occur across styles
-- [ ] remove contradictory rules
-- [ ] remove unwanted rules
-- [ ] combine into one custom style
-- [ ] make a rule for spelling exceptions
-- [ ] test readability rules
-- [ ] hyphen rules
-- [ ] exclude some rules at start of sentences
-- [ ] upgrade American-spelling.yml to include the ones I do...
+Updating Styles
+--------------------------------------------------------------------------------
 
-__  
-dk
+These rules come from various sources. To update:
+
+1. Download the desired style's repository (for example, `errata-ai/styles`).
+2. Copy its `styles` directory contents into `~/.config/vale/styles`.
+3. Remove or override any conflicting rules you don't want.
+
+
+Customizing Rules
+--------------------------------------------------------------------------------
+
+You can learn from existing [examples of Vale styles](https://vale.sh/explorer), borrowing rules as needed. Use the [Vale Studio](https://studio.vale.sh/) to validate your style definitions.
+
+1. **Copy a rule file**\
+   Copy the `.yml` file from its original directory into the `styles/Custom` folder.
+2. **Disable the original rule**\
+   In your `.vale.ini`, add the original rule to the ignore list (or set it to `false`).
+3. **Delete the original file**\
+   Remove the `.yml` file so that updates from the external source won't overwrite your custom changes.
+4. **Commit changes**\
+   Commit and push your modified rule to source control.
+
+> **Goal:** Eventually merge and refine all borrowed sets until you rely solely on your custom style rules.
+
+
+References
+--------------------------------------------------------------------------------
+
+  - [Vale Documentation](https://docs.errata.ai/)
+  - [Vale Boilerplate](https://github.com/errata-ai/vale-boilerplate)
+  - [TestTheDocs/vale-styles](https://github.com/testthedocs/vale-styles)
+  - [errata-ai/styles](https://github.com/errata-ai/styles)
