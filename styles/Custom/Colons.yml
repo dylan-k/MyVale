@@ -1,8 +1,8 @@
 #source: google
 extends: existence
 message: "'%s' should be in lowercase."
-link: 'https://developers.google.com/style/colons'
+link: "https://developers.google.com/style/colons"
 nonword: true
 level: warning
 tokens:
-  - ':\s[A-Z]'
+  - '[A-Za-z0-9]:\s[A-Z]'
