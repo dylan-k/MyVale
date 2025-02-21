@@ -1,9 +1,8 @@
 ---
 extends: existence
-message: "'%s' may be passive voice. Use active voice if you can."
-link: "https://contribute.jquery.org/style-guide/prose/#voice-amp-tone"
+message: "'%s' is passive voice"
 ignorecase: true
-level: suggestion
+level: warning
 raw:
   - \b(am|are|were|being|is|been|was|be)\b\s*
 tokens:

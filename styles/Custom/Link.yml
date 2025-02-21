@@ -1,10 +1,12 @@
 ---
-message: Do not use “%s” as the content of a link.
 extends: existence
+message: "Do not use '%s' as the content of a link."
 ignorecase: true
-scope: raw
-level: error
+scope: sentence
+level: warning
 tokens:
-  - 'here'
-  - 'click'
-  - 'on'
+  - '\[\s*click\s*\]\([^)]+\)'
+  - '\[\s*clicking\s*\]\([^)]+\)'
+  - '\[\s*here\s*\]\([^)]+\)'
+  - '\[\s*more\s*\]\([^)]+\)'
+  - '\[\s*click\s+here\s*\]\([^)]+\)'

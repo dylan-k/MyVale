@@ -1,7 +1,7 @@
 ---
 extends: existence
-message: Avoid the adverb “%s.”
-link: https://docs.microsoft.com/en-us/style-guide/word-choice/use-simple-words-concise-sentences
+message: "Consider avoiding adverbs like '%s.'"
+link: https://style.mla.org/adverbs-to-avoid/
 ignorecase: true
 level: warning
 action:
