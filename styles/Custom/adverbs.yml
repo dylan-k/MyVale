@@ -9,655 +9,656 @@ action:
 tokens:
   - '\b\w+ly\b'
 exceptions:
-  - only
-  - family
-  - early
-  - likely
-  - supply
-  - apply
-  - daily
-  - lovely
-  - unlikely
-  - assembly
-  - elderly
-  - reply
-  - badly
-  - friendly
-  - fly
-  - holy
-  - rely
-  - silly
-  - billy
-  - kelly
-  - monthly
-  - lonely
-  - monopoly
-  - rally
-  - freely
-  - imply
-  - lively
-  - comply
-  - sally
-  - ugly
-  - kindly
-  - costly
-  - folly
-  - holly
-  - bodily
-  - jolly
-  - ally
-  - lily
-  - telly
-  - belly
-  - deadly
-  - molly
-  - quarterly
-  - butterfly
-  - dolly
-  - orderly
-  - multiply
-  - grimly
-  - jelly
-  - scholarly
-  - yearly
-  - curly
-  - weakly
-  - ghastly
-  - leisurely
-  - melancholy
-  - timely
-  - stately
-  - bully
-  - heavenly
-  - chilly
-  - willy
-  - tally
-  - sly
-  - hourly
-  - piccadilly
-  - earthly
-  - poly
-  - gully
-  - oily
-  - smelly
-  - homely
-  - ghostly
-  - woolly
-  - anomaly
-  - worldly
-  - lowly
-  - nightly
-  - sickly
-  - wally
-  - disorderly
-  - unruly
-  - prickly
-  - unfriendly
-  - wobbly
-  - burly
-  - filly
-  - cuddly
-  - unsightly
-  - northerly
-  - steely
-  - princely
-  - cowardly
-  - manly
-  - shapely
-  - hilly
-  - cleanly
-  - bubbly
-  - fortnightly
-  - courtly
-  - user-friendly
-  - priestly
-  - beastly
-  - gilly
-  - westerly
-  - ply
-  - grisly
-  - masterly
-  - nelly
-  - unholy
-  - southerly
-  - godly
-  - gentlemanly
-  - wily
-  - saintly
-  - untimely
-  - unseemly
-  - deathly
-  - frilly
-  - surly
-  - tilly
-  - pearly
-  - easterly
-  - brotherly
-  - ungainly
-  - cicely
-  - sprightly
-  - spindly
-  - firefly
-  - fiddly
-  - solly
-  - scaly
-  - golly
-  - neighbourly
-  - motherly
-  - whitely
-  - knightly
-  - lordly
-  - lully
-  - unearthly
-  - dragonfly
-  - knobbly
-  - caerphilly
-  - portly
-  - shelly
-  - gravelly
-  - straggly
-  - grizzly
-  - fatherly
-  - duopoly
-  - no-fly
-  - termly
-  - greenfly
-  - lolly
-  - unworldly
-  - environment-friendly
-  - gamely
-  - crinkly
-  - slovenly
-  - comely
-  - miserly
-  - panoply
-  - stubbly
-  - womanly
-  - bristly
-  - goodly
-  - underbelly
-  - lally
-  - waterlily
-  - dally
-  - welly
-  - brolly
-  - kingly
-  - painterly
-  - reapply
-  - superfamily
-  - chantilly
-  - crumbly
-  - subfamily
-  - ungodly
-  - gadfly
-  - homily
-  - oversupply
-  - dastardly
-  - half-yearly
-  - hurly-burly
-  - measly
-  - oligopoly
-  - unlovely
-  - bally
-  - twice-weekly
-  - whitefly
-  - other-worldly
-  - ozone-friendly
-  - seemly
-  - sisterly
-  - sparkly
-  - pally
-  - resupply
-  - rockabilly
-  - roly-poly
-  - south-westerly
-  - wiggly
-  - comradely
-  - read-only
-  - giggly
-  - girly
-  - gangly
-  - twice-yearly
-  - north-westerly
-  - dilly
-  - drizzly
-  - ly
-  - mealy
-  - niggardly
-  - matronly
-  - overfly
-  - seely
-  - sully
-  - wrinkly
-  - muscly
-  - postmultiply
-  - selly
-  - south-easterly
-  - ungentlemanly
-  - writerly
-  - cully
-  - heterosexually
-  - premultiply
-  - tiddly
-  - acromegaly
-  - hillbilly
-  - mayfly
-  - pebbly
-  - self-assembly
-  - soldierly
-  - unmanly
-  - googly
-  - doolally
-  - eco-friendly
-  - softly-softly
-  - fam'ly
-  - fleshly
-  - north-easterly
-  - singlehandedly
-  - treacly
-  - wifely
-  - crackly
-  - feely
   - -ly
-  - pimply
-  - squally
-  - tinkly
-  - bi-weekly
-  - botfly
-  - clerkly
-  - disapply
-  - hepatomegaly
-  - jangly
-  - paly
-  - readerly
-  - reassembly
-  - splenomegaly
-  - twiddly
-  - two-ply
-  - bimonthly
-  - half-hourly
-  - maidenly
-  - niggly
-  - purply
-  - squiggly
-  - three-ply
-  - tingly
-  - blackfly
-  - coaly
-  - creepy-crawly
-  - doily
-  - sawfly
-  - stepfamily
-  - tickly
-  - barfly
-  - disassembly
-  - girl-friendly
-  - rascally
-  - swirly
-  - beggarly
-  - bobbly
-  - fruitfly
-  - jungly
-  - moly
-  - otherworldly
-  - scally
-  - shingly
-  - trebly
-  - underly
-  - wheely
-  - bly
-  - cousinly
-  - crawly
-  - dangly
-  - grandmotherly
-  - hoverfly
-  - marly
-  - microcephaly
-  - muddly
-  - rubbly
-  - this-worldly
-  - trembly
-  - twinkly
-  - undersupply
-  - unmannerly
-  - whirly
-  - diddly
-  - dolphin-friendly
-  - freckly
-  - gnarly
-  - housewifely
-  - laggardly
-  - philately
-  - scrawly
-  - shaly
-  - spangly
-  - spritely
-  - unneighbourly
-  - wibbly
-  - wriggly
-  - wurly
-  - creaturely
-  - damselfly
-  - dilly-dally
-  - dribbly
-  - freight-only
-  - horsefly
-  - hurly
-  - jubbly
-  - northwesterly
-  - pre-emptively
-  - radio-friendly
-  - rattly
-  - relly
-  - rolly
-  - rustly
-  - southwesterly
-  - subassembly
-  - superfly
-  - uncomely
-  - unwomanly
-  - wordly
-  - blowfly
-  - citizenly
-  - daughterly
-  - dimply
-  - pot-belly
-  - slatternly
-  - southeasterly
-  - stilly
-  - tangly
-  - waffly
-  - biweekly
-  - booly
-  - craftsmanly
-  - curmudgeonly
-  - gristly
-  - headly
-  - headmasterly
-  - helly
-  - housefly
-  - non-daily
-  - northeasterly
-  - potbelly
-  - queenly
-  - ruffianly
-  - sandfly
-  - scrolly
-  - snuffly
-  - unscholarly
-  - unwieldly
-  - weaselly
-  - wooly
+  - acromegaly
   - actorly
-  - auntly
-  - brambly
-  - business-friendly
-  - celly
-  - contumely
-  - crumply
-  - dayly
-  - dooly
-  - drawly
-  - drooly
-  - firebelly
-  - gobbly
-  - grumbly
-  - heav'nly
-  - hover-fly
-  - husbandly
-  - interactionally
-  - lawyerly
-  - lurvely
-  - luvverly
-  - mannerly
-  - piddly
-  - pully
-  - savourly
-  - schoolmasterly
-  - scraggly
-  - shuffly
-  - skelly
-  - sluggardly
-  - snuggly
-  - speckly
-  - toxophily
-  - trolly
-  - twirly
-  - unfatherly
-  - unshapely
-  - user-unfriendly
-  - waggly
-  - wibbly-wobbly
-  - anencephaly
-  - bearly
-  - bely
-  - bibliophily
-  - big-sisterly
-  - blackguardly
-  - brachycephaly
-  - brawly
-  - caramelly
-  - chiropterophily
-  - churchly
-  - cobbly
-  - colly
-  - cooly
-  - cranefly
-  - dancerly
-  - dealy
-  - designerly
-  - dovely
-  - dudely
-  - entomophily
-  - exencephaly
-  - family-friendly
-  - felly
-  - fishbelly
-  - footmanly
-  - gentlewomanly
-  - girlfriendly
-  - goatly
-  - godfatherly
-  - gospelly
-  - gradely
-  - grandfatherly
-  - growly
-  - gruelly
-  - guestly
-  - gurgly
-  - heartly
-  - hepatosplenomegaly
-  - hevenly
-  - hydrocephaly
-  - jiggly
-  - jingly
-  - jowly
-  - knubbly
-  - knuckly
-  - loverly
-  - male-friendly
-  - marbly
-  - megalencephaly
-  - metally
-  - misapply
-  - modelly
-  - nonfamily
-  - nubbly
-  - oly
-  - ornithophily
-  - outfly
-  - overfriendly
-  - peely-wally
-  - profamily
-  - protractedly
-  - psychobilly
-  - rambly
-  - ripply
-  - rumbly
-  - samely
-  - schoolmistressly
-  - sclerodactyly
-  - scrabbly
-  - scrambly
-  - scribbly
-  - shambly
-  - shoggly
-  - shoogly
-  - sightly
-  - skilly
-  - snivelly
-  - spinsterly
-  - squirrely
-  - statesmanly
-  - studly
-  - summerly
-  - swivelly
-  - teacherly
-  - test-fly
-  - tinselly
-  - towardly
-  - trichinopoly
-  - twilly
-  - unbrotherly
-  - uncleanly
-  - uncourtly
-  - unkingly
-  - unlively
-  - unmotherly
-  - unreflectively
-  - unsaintly
-  - unsisterly
-  - unsleepingly
-  - unsoldierly
-  - unwifely
-  - viewly
-  - waly
-  - weatherly
-  - weevilly
-  - whistly
-  - widdly
-  - winterly
-  - wizardly
+  - ally
   - Ally
   - Aly
   - Anatoly
+  - anencephaly
+  - anomaly
+  - apply
   - Armaly
+  - assembly
   - Assembly
+  - auntly
+  - badly
   - Baily
+  - bally
+  - barfly
   - Bayly
+  - bearly
+  - beastly
   - Beesly
+  - beggarly
+  - belly
+  - bely
   - Beverly
+  - bi-weekly
+  - bibliophily
+  - big-sisterly
+  - billy
   - Billy
+  - bimonthly
+  - biweekly
+  - blackfly
+  - blackguardly
   - Blakely
+  - blowfly
+  - bly
   - Bly
+  - bobbly
+  - bodily
   - Bolly
+  - booly
+  - botfly
+  - brachycephaly
+  - brambly
+  - brawly
   - Brierly
+  - bristly
+  - brolly
+  - brotherly
+  - bubbly
+  - bully
+  - burly
+  - business-friendly
+  - butterfly
+  - caerphilly
   - Caerphilly
+  - caramelly
   - Carly
   - Casserly
   - Cecily
+  - celly
+  - chantilly
   - Chantilly
+  - chilly
+  - chiropterophily
+  - churchly
+  - cicely
   - Cicely
+  - citizenly
+  - cleanly
+  - clerkly
   - Clovelly
+  - coaly
+  - cobbly
   - Coberly
+  - colly
+  - comely
+  - comply
+  - comradely
   - Connally
   - Connelly
   - Connolly
+  - contumely
+  - cooly
+  - costly
   - Coulibaly
+  - courtly
+  - cousinly
+  - cowardly
+  - crackly
+  - craftsmanly
+  - cranefly
+  - crawly
+  - creaturely
+  - creepy-crawly
   - Crilly
+  - crinkly
+  - crumbly
+  - crumply
+  - cuddly
+  - cully
   - Cully
+  - curly
+  - curmudgeonly
   - Dailly
+  - daily
   - Daily
+  - dally
   - Dally
   - Daly
+  - damselfly
+  - dancerly
+  - dangly
+  - dastardly
+  - daughterly
+  - dayly
+  - deadly
+  - dealy
+  - deathly
+  - designerly
+  - diddly
+  - dilly
+  - dilly-dally
+  - dimply
+  - disapply
+  - disassembly
+  - disorderly
+  - doily
+  - dolly
   - Dolly
+  - dolphin-friendly
   - Donnelly
+  - doolally
+  - dooly
+  - dovely
+  - dragonfly
+  - drawly
+  - dribbly
+  - drizzly
+  - drooly
+  - dudely
+  - duopoly
   - Ealy
+  - early
   - Early
+  - earthly
+  - easterly
   - Easterly
+  - eco-friendly
+  - elderly
   - Ely
   - Emily
+  - entomophily
+  - environment-friendly
   - Esterly
   - Everly
+  - exencephaly
+  - fam'ly
+  - family
+  - family-friendly
   - Farrelly
+  - fatherly
+  - feely
   - Feely
+  - felly
+  - fiddly
+  - filly
+  - firebelly
+  - firefly
+  - fishbelly
+  - fleshly
+  - fly
   - Fly
+  - folly
+  - footmanly
+  - fortnightly
+  - freckly
+  - freely
+  - freight-only
+  - friendly
+  - frilly
+  - fruitfly
+  - gadfly
+  - gamely
+  - gangly
   - Gately
+  - gentlemanly
+  - gentlewomanly
+  - ghastly
+  - ghostly
+  - giggly
+  - gilly
+  - girl-friendly
+  - girlfriendly
+  - girly
+  - gnarly
+  - goatly
+  - gobbly
+  - godfatherly
+  - godly
   - Golightly
+  - golly
+  - goodly
+  - googly
+  - gospelly
+  - gradely
+  - grandfatherly
+  - grandmotherly
   - Grantly
+  - gravelly
+  - greenfly
   - Greenly
+  - grimly
+  - grisly
+  - gristly
+  - grizzly
+  - growly
+  - gruelly
+  - grumbly
+  - guestly
+  - gully
   - Gully
+  - gurgly
+  - half-hourly
+  - half-yearly
   - Hally
   - Hambly
+  - headly
+  - headmasterly
   - Healy
+  - heartly
+  - heav'nly
+  - heavenly
+  - helly
+  - hepatomegaly
+  - hepatosplenomegaly
+  - heterosexually
+  - hevenly
+  - hillbilly
+  - hilly
+  - holly
   - Holly
+  - holy
+  - homely
+  - homily
+  - horsefly
+  - hourly
+  - housefly
+  - housewifely
+  - hover-fly
+  - hoverfly
+  - hurly
+  - hurly-burly
+  - husbandly
+  - hydrocephaly
+  - imply
+  - interactionally
   - Italy
+  - jangly
+  - jelly
+  - jiggly
   - Jilly
+  - jingly
+  - jolly
   - Jolly
   - Joly
+  - jowly
+  - jubbly
   - July
+  - jungly
   - Kealy
   - Keely
+  - kelly
   - Kelly
   - Kenealy
   - Kennelly
   - Kiely
   - Kimberly
+  - kindly
+  - kingly
   - Kiraly
+  - knightly
+  - knobbly
+  - knubbly
+  - knuckly
+  - laggardly
+  - lally
   - Lally
+  - lawyerly
+  - leisurely
+  - likely
   - Lilly
+  - lily
   - Lily
+  - lively
   - Lively
+  - lolly
   - Lolly
+  - lonely
+  - lordly
+  - lovely
   - Lovely
+  - loverly
+  - lowly
+  - lully
+  - lurvely
+  - luvverly
+  - ly
+  - maidenly
+  - male-friendly
   - Maly
+  - manly
   - Manly
+  - mannerly
+  - marbly
+  - marly
+  - masterly
+  - matronly
   - Mattingly
+  - mayfly
   - McCully
+  - mealy
+  - measly
+  - megalencephaly
+  - melancholy
+  - metally
+  - microcephaly
   - Milly
+  - misapply
+  - miserly
   - Moberly
+  - modelly
+  - molly
   - Molly
+  - moly
+  - monopoly
   - Monopoly
+  - monthly
   - Mosely
+  - motherly
+  - muddly
   - Mullally
   - Mullaly
+  - multiply
+  - muscly
   - Neely
+  - neighbourly
+  - nelly
   - Nelly
+  - niggardly
+  - niggly
+  - nightly
+  - no-fly
+  - non-daily
+  - nonfamily
+  - north-easterly
+  - north-westerly
+  - northeasterly
+  - northerly
+  - northwesterly
+  - nubbly
   - Nunnally
-  - Offaly
-  - Olly
   - O'Reilly
+  - Offaly
+  - oily
+  - oligopoly
+  - Olly
+  - oly
+  - only
+  - orderly
   - Orly
+  - ornithophily
+  - other-worldly
+  - otherworldly
+  - outfly
+  - overfly
+  - overfriendly
+  - oversupply
+  - ozone-friendly
+  - painterly
+  - pally
+  - paly
+  - panoply
   - Pauly
+  - pearly
+  - pebbly
+  - peely-wally
   - Pelly
+  - philately
   - Philly
+  - piccadilly
   - Piccadilly
+  - piddly
+  - pimply
+  - ply
   - Polly
+  - poly
+  - portly
+  - postmultiply
+  - pot-belly
+  - potbelly
+  - pre-emptively
+  - premultiply
+  - prickly
+  - priestly
+  - princely
+  - profamily
+  - protractedly
+  - psychobilly
+  - pully
+  - purply
+  - quarterly
+  - queenly
+  - radio-friendly
+  - rally
+  - rambly
+  - rascally
+  - rattly
+  - read-only
+  - readerly
+  - reapply
+  - reassembly
+  - recently
   - Reilly
+  - relly
+  - rely
+  - reply
+  - resupply
   - Rielly
+  - ripply
+  - rockabilly
+  - rolly
+  - roly-poly
+  - rubbly
+  - ruffianly
+  - rumbly
+  - rustly
+  - saintly
+  - sally
   - Sally
+  - samely
+  - sandfly
+  - savourly
+  - sawfly
+  - scally
   - Scally
+  - scaly
+  - scholarly
+  - schoolmasterly
+  - schoolmistressly
+  - sclerodactyly
+  - scrabbly
+  - scraggly
+  - scrambly
+  - scrawly
+  - scribbly
+  - scrolly
   - Scully
   - Sealy
+  - seely
+  - seemly
+  - self-assembly
+  - selly
+  - shaly
+  - shambly
+  - shapely
+  - shelly
   - Shelly
+  - shingly
   - Shively
+  - shoggly
+  - shoogly
+  - shuffly
   - Sicily
+  - sickly
+  - sightly
+  - silly
+  - singlehandedly
+  - sisterly
+  - skelly
   - Skelly
+  - skilly
+  - slatternly
+  - slovenly
+  - sluggardly
+  - sly
   - Sly
+  - smelly
   - Snavely
+  - snivelly
+  - snuffly
+  - snuggly
+  - softly-softly
+  - soldierly
+  - solly
+  - south-easterly
+  - south-westerly
+  - southeasterly
+  - southerly
+  - southwesterly
+  - spangly
+  - sparkly
+  - speckly
+  - spindly
+  - spinsterly
+  - splenomegaly
+  - sprightly
+  - spritely
+  - squally
+  - squiggly
+  - squirrely
   - Stanly
+  - stately
+  - statesmanly
+  - steely
+  - stepfamily
+  - stilly
   - Stokely
+  - straggly
+  - stubbly
+  - studly
+  - subassembly
+  - subfamily
+  - sully
+  - summerly
+  - superfamily
+  - superfly
+  - supply
+  - surly
+  - swirly
+  - swivelly
+  - tally
   - Tally
+  - tangly
+  - teacherly
+  - telly
+  - termly
+  - test-fly
   - Thessaly
+  - this-worldly
+  - three-ply
+  - tickly
+  - tiddly
+  - tilly
   - Tilly
+  - timely
+  - tingly
+  - tinkly
+  - tinselly
+  - towardly
+  - toxophily
+  - treacly
+  - trebly
+  - trembly
+  - trichinopoly
+  - trolly
   - Tully
+  - twice-weekly
+  - twice-yearly
+  - twiddly
+  - twilly
+  - twinkly
+  - twirly
+  - two-ply
   - Twombly
+  - ugly
+  - unbrotherly
+  - uncleanly
+  - uncomely
+  - uncourtly
+  - underbelly
+  - underly
+  - undersupply
+  - unearthly
+  - unfatherly
+  - unfriendly
+  - ungainly
+  - ungentlemanly
+  - ungodly
+  - unholy
+  - unkingly
+  - unlikely
+  - unlively
+  - unlovely
+  - unmanly
+  - unmannerly
+  - unmotherly
+  - unneighbourly
+  - unreflectively
+  - unruly
+  - unsaintly
+  - unscholarly
+  - unseemly
+  - unshapely
+  - unsightly
+  - unsisterly
+  - unsleepingly
+  - unsoldierly
+  - untimely
+  - unwieldly
+  - unwifely
+  - unwomanly
+  - unworldly
+  - user-friendly
+  - user-unfriendly
   - Vasily
+  - viewly
+  - waffly
+  - waggly
+  - wally
   - Wally
+  - waly
+  - waterlily
   - Waverly
+  - weakly
+  - weaselly
+  - weatherly
   - Weatherly
   - Weekly
+  - weevilly
+  - welly
   - Welly
+  - westerly
+  - wheely
+  - whirly
+  - whistly
+  - whitefly
+  - whitely
   - Whitely
+  - wibbly
+  - wibbly-wobbly
+  - widdly
+  - wifely
+  - wiggly
+  - willy
   - Willy
+  - wily
+  - winterly
+  - wizardly
+  - wobbly
+  - womanly
+  - woolly
+  - wooly
+  - wordly
+  - worldly
+  - wriggly
+  - wrinkly
+  - writerly
+  - wurly
+  - yearly
   - Zimmerly
