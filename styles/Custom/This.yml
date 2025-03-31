@@ -1,7 +1,8 @@
 ---
-message: Do not overuse “%s.”
+message: "Do not overuse '%s'."
 link: https://docs.openstack.org/contributor-guide/writing-style/general-writing-guidelines.html#do-not-overuse-this-that-these-and-it
-description: Use these pronouns sparingly. Overuse contributes to readers’ confusion.
+description:
+  "Use these pronouns sparingly. Overuse contributes to readers' confusion."
 extends: existence
 level: warning
 ignorecase: true

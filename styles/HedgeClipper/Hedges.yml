@@ -1,11 +1,11 @@
 ---
 extends: existence
-message: "'%s' hedges the point."
+message: "To say '%s' hedges the point."
 link: https://typely.com/blog/hedging/
 ignorecase: true
 level: warning
 tokens:
-  - ', so to speak'
+  - ", so to speak"
   - "!!!"
   - a bit
   - a little
