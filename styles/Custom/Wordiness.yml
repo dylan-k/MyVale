@@ -1,23 +1,26 @@
----
 extends: substitution
-message: Try “%s” instead of “%s.”
+message: "Consider using '%s' instead of '%s'."
 link: https://docs.microsoft.com/en-us/style-guide/word-choice/use-simple-words-concise-sentences
 ignorecase: true
-level: error
+level: suggestion
 action:
   name: replace
 swap:
   (?:give|gave) rise to: lead to
+  (?:extract|take away|eliminate): remove
+  (?:in order to|as a means to): to
+  (?:inform|let me know): tell
   (?:previous|prior) to: before
+  (?:utilize|make use of): use
   a (?:large)? majority of: most
   a (?:large)? number of: many
   a myriad of: myriad
-  adequate number: enough
   adversely impact: hurt
+  adequate number: enough
   all across: across
+  all of (?!a sudden|these): all
   all of a sudden: suddenly
   all of these: these
-  all of: all
   all-time record: record
   almost all: most
   almost never: seldom
@@ -41,7 +44,6 @@ swap:
   basic necessity: necessity
   because of the fact that: because
   came to a realization: realized
-  came to an abrupt end: end[ed] abruptly
   came to an abrupt end: ended abruptly
   carry out an evaluation of: evaluate
   close down: close
@@ -62,6 +64,7 @@ swap:
   during the period of: during
   during the time that: while
   emergency situation: emergency
+  establish connectivity: connect
   except when: unless
   excessive number: too many
   extend an invitation: invite
@@ -70,7 +73,6 @@ swap:
   for the duration of: during
   gather together: gather
   has the ability to: can
-  has the ability: can
   has the capacity to: can
   has the opportunity to: could
   hold a meeting: meet
@@ -78,6 +80,7 @@ swap:
   in a careful manner: carefully
   in a thoughtful manner: thoughtfully
   in a timely manner: timely
+  in addition: also
   in an effort to: to
   in between: between
   in lieu of: instead of
@@ -123,6 +126,6 @@ swap:
   used for fuel purposes: used for fuel
   whether or not: whether
   with reference to: about
-  with regard to: regarding
   with respect to: about or on
+  with regard to: regarding
   with the exception of: except for
