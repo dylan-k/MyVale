@@ -2,7 +2,8 @@
 extends: existence
 message: "'%s' should be in lowercase."
 link: "https://developers.google.com/style/colons"
-nonword: true
+ignorecase: false
 level: warning
+scope: sentence
 tokens:
-  - '[A-Za-z0-9]:\s[A-Z]'
+  - '\w+:\s[A-Z]'
