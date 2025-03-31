@@ -8,7 +8,7 @@ level: warning
 action:
   name: replace
 swap:
-  'approximate(?:ly)?': "'about'"
+  "approximate(?:ly)?": "'about'"
   absent: "'none' or 'not here'"
   abundance: "'plenty'"
   accelerate: "'speed up'"
@@ -113,7 +113,6 @@ swap:
   purchase: "'buy'"
   relocate: "'move'"
   request: "'ask'"
-  solicit: "'request'"
   state-of-the-art: "'latest'"
   subsequent: "'later' or 'next'"
   substantial: "'large'"
