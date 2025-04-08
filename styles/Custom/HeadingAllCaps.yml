@@ -1,0 +1,7 @@
+---
+extends: existence
+message: "Heading '%s' should not be in ALL CAPS."
+level: error
+scope: heading
+tokens:
+  - "^[A-Z0-9\\s:;,.!?\\'\"-]+$"
