@@ -6,4 +6,4 @@ level: error
 scope: sentence
 nonword: true
 tokens:
-  - '^\d+.+'
+  - '^(?!\d{4}-\d{2}-\d{2}\b)\d+.+'
