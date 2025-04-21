@@ -1,0 +1,13 @@
+---
+# Detects split infinitives
+extends: sequence
+message:
+  "Avoid splitting infinitives (e.g., '%[1]s %[2]s %[3]s'). Consider revising to avoid placing modifiers between 'to' and the verb."
+link: "https://writingcenter.unc.edu/tips-and-tools/split-infinitives/"
+ignorecase: true
+level: suggestion
+scope: sentence
+tokens:
+  - pattern: '\bto\b' # Matches "to"
+  - tag: RB|JJ # Matches adverbs or adjectives (split modifier)
+  - tag: VB|VBP|VBZ|VBG|VBD|VBN # Matches verbs

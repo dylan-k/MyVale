@@ -1,0 +1,14 @@
+---
+# Detects "by" phrases that indicate passive voice constructions
+extends: sequence
+message:
+  "'%[1]s %[2]s %[3]s' may indicate passive voice. Consider revising to active
+  voice."
+link: "https://library.douglascollege.ca/sites/default/files/2023-12/GR_3.40_Identifying_Passive_Voice.pdf"
+ignorecase: true
+level: suggestion
+scope: sentence
+tokens:
+  - pattern: '\bby\b' # Matches the word "by"
+  - tag: DT|JJ|NN|NNS|NNP|NNPS # Matches determiners, adjectives, or nouns (start of a noun phrase)
+  - tag: JJ|NN|NNS|NNP|NNPS # Matches additional parts of the noun phrase (optional, repeated)

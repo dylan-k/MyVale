@@ -1,36 +1,42 @@
-# An example document 
+# An example document
 
 Vale Server works by enforcing externally-created *styles* such as the Microsoft Writing Style Guide.  
 
 Styles consist of YAML  files, or "rules", that enforce a certain writing construct.
 
-## Another Section 
+ To significantly improve results, consider removing **split infinitives**.
 
-proselint is a linter for English prose that "places the world’s greatest writers and editors by your side." Here's a sample of what it checks for:  
+It was done by scientists who conduct passive constructions. Have it by today to not be passive but split infinitive, though. The book was written by the author last year. The cake is being eaten by the children. The project has been completed ahead of schedule. The homework was done by the students before the deadline. The house is being painted by the workers this week. The report was prepared by the assistant yesterday. The decision has been made by the committee. The car was repaired by a mechanic after the accident.
 
-- "That's an extremely complete solution." 
 
-- "That has become increasingly less valuable." 
+Another Section
+--------------------------------------------------------------------------------
 
-Joblint tests job posts for issues with sexism, culture, expectations, and recruiter fails such as is what I think
+**proselint** is a linter for English prose that "places the world's greatest writers and editors by your side." Here's a sample of what it checks for:  
 
-- "You should be comfortable with tight deadlines." 
+- "That's an extremely complete solution."
+
+- "That has become increasingly less valuable."
+
+**Joblint** tests job posts for issues with sexism, culture, expectations, and recruiter fails such as is what I think
+
+- "You should be comfortable with tight deadlines."
 
 - "He should have a background in mathematics."
 
-I think it would seem in my opinion maybe. 
+I think it would seem in my opinion maybe.
 
-sometimes you need an inline url like https://example.com 
+sometimes you need an inline url like https://example.com
 
 https://example.com  
 
-www.google.com 
+www.google.com
 
 http://example.com
 
 a link like [example](https://example.com)
 
-or a link like <a href="https://example.com">foo</a> 
+or a link like <a href="https://example.com">foo</a>
 
 Remarkably few developers write well.
 
@@ -44,7 +50,7 @@ There is a use for this construction.
 
 There are uses for this construction.
 
-are not contractions can not contractions aren't contractions can't. 
+are not contractions can not contractions aren't contractions can't.
 
 This sentence is simply terrible.
 
