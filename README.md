@@ -116,11 +116,13 @@ To integrate Vale into Visual Studio Code, install the [Vale extension](https://
 Updating Styles
 --------------------------------------------------------------------------------
 
-These rules come from various sources. To update:
+These rules come from various sources. To update most of them, run this command:
 
-1. Download the desired style's repository (for example, `errata-ai/styles`).
-2. Copy its `styles` directory contents into `~/.config/vale/styles`.
-3. Remove or override any conflicting rules you don't want.
+```
+vale sync
+```
+
+Store any other styles in `~/.config/vale/styles`.
 
 
 Customizing Rules
