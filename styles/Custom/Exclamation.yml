@@ -1,7 +1,7 @@
 ---
 extends: existence
 message: Use exclamation points sparingly, never more than once.
-link: http://styleguide.mailchimp.com/grammar-and-mechanics/#header-4-exclamation-points
+link: "http://styleguide.mailchimp.com/grammar-and-mechanics/#header-4-exclamation-points"
 level: error
 nonword: true
 tokens:
