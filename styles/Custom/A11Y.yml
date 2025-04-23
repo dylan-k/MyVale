@@ -1,6 +1,6 @@
 ---
 extends: substitution
-message: Try “%s” instead of “%s.”
+message: "Try `%s` instead of `%s`."
 ignorecase: true
 level: error
 swap:

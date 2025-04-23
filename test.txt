@@ -4,9 +4,11 @@ Vale Server works by enforcing externally-created *styles* such as the Microsoft
 
 Styles consist of YAML  files, or "rules", that enforce a certain writing construct.
 
- To significantly improve results, consider removing **split infinitives**.
+**Adverbs**. The team worked tirelessly to complete the project early, knowing fully well that delays would be costly. Family members eagerly awaited updates, but the progress was oddly slow despite everyone's efforts. The manager spoke sharply, clearly frustrated by the lack of results. Meanwhile, the workers moved carefully through the tasks, applying their skills methodically. Strangely, the solution seemed unlikely to succeed, yet they proceeded boldly, hoping for a breakthrough.
 
-It was done by scientists who conduct passive constructions. Have it by today to not be passive but split infinitive, though. The book was written by the author last year. The cake is being eaten by the children. The project has been completed ahead of schedule. The homework was done by the students before the deadline. The house is being painted by the workers this week. The report was prepared by the assistant yesterday. The decision has been made by the committee. The car was repaired by a mechanic after the accident.
+To significantly improve results, consider removing **split infinitives**.
+
+It was done by scientists who study **passive constructions**. Have it by today to not be passive but split infinitive, though. The book was written by the author last year. The cake is being eaten by the children. The project has been completed ahead of schedule. The homework was done by the students before the deadline. The house is being painted by the workers this week. The report was prepared by the assistant yesterday. The decision has been made by the committee. The car was repaired by a mechanic after the accident.
 
 
 Another Section
