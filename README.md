@@ -145,7 +145,7 @@ You can learn from existing [examples of Vale styles](https://vale.sh/explorer),
 References
 --------------------------------------------------------------------------------
 
-  - [Vale Documentation](https://docs.errata.ai/)
+  - [Vale Documentation](https://vale.sh/docs)
   - [Vale Boilerplate](https://github.com/errata-ai/vale-boilerplate)
   - [TestTheDocs/vale-styles](https://github.com/testthedocs/vale-styles)
   - [errata-ai/styles](https://github.com/errata-ai/styles)

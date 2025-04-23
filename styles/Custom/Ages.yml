@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: Avoid hyphens in ages unless it clarifies the text.
+message: "Avoid hyphens in ages unless it clarifies the text."
 link: https://content-guide.18f.gov/specific-words-and-phrases/
 level: warning
 tokens:

@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: “%s” is wordy.
+message: "`%s` is wordy."
 level: warning
 scope: text
 description: Some words add nothing but length to your prose.

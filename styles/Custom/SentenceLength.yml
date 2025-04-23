@@ -1,7 +1,0 @@
----
-message: Sentences should not exceed 25 words.
-extends: occurrence
-scope: sentence
-level: suggestion
-max: 25
-token: \b(\w+)\b

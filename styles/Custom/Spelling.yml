@@ -1,0 +1,9 @@
+#source: https://vale.sh/docs/checks/spelling
+# Uses the built-in dictionary and filters.
+extends: spelling
+message: "Check for correct spelling of `%s` and revise as needed."
+level: error
+action:
+  name: suggest
+  params:
+    - spellings

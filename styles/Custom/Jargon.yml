@@ -1,9 +1,11 @@
 ---
 extends: existence
-message: “%s” is jargon.
+message: "`%s` is jargon."
+description:
+  "Slang, like metaphors, should be used only occasionally if it is to have
+  effect."
 scope: text
 level: warning
-description: "Slang, like metaphors, should be used only occasionally if it is to have effect."
 ignorecase: true
 tokens:
   - ailing

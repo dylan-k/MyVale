@@ -1,6 +1,6 @@
 ---
 extends: substitution
-message: Use %s instead of “%s”
+message: "Use `%s` instead of `%s`"
 link: https://docs.openstack.org/contributor-guide/writing-style/general-writing-guidelines.html#write-positively
 level: warning
 ignorecase: true

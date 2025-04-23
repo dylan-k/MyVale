@@ -4,6 +4,8 @@ Vale Server works by enforcing externally-created *styles* such as the Microsoft
 
 Styles consist of YAML  files, or "rules", that enforce a certain writing construct.
 
+**Spelling** counts so don't write splelling or spelig for example.
+
 **Adverbs**. The team worked tirelessly to complete the project early, knowing fully well that delays would be costly. Family members eagerly awaited updates, but the progress was oddly slow despite everyone's efforts. The manager spoke sharply, clearly frustrated by the lack of results. Meanwhile, the workers moved carefully through the tasks, applying their skills methodically. Strangely, the solution seemed unlikely to succeed, yet they proceeded boldly, hoping for a breakthrough.
 
 To significantly improve results, consider removing **split infinitives**.

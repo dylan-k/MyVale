@@ -2,6 +2,6 @@
 message: Paragraphs should not exceed 150 words.
 extends: occurrence
 scope: paragraph
-level: suggestion
+level: warning
 max: 150
 token: \b(\w+)\b

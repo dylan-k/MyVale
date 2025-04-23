@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: “%s” is an oxymoron.
+message: "`%s` is an oxymoron."
 ignorecase: true
 level: error
 tokens:

@@ -1,12 +1,13 @@
 ---
 extends: existence
-message: “%s” is redundant.
+message: "`%s` is redundant."
 ignorecase: true
 level: error
 tokens:
   - (?:added|extra) bonus
   - (?:advance|prior) notice
-  - (?:gather|assemble|attach|blend|mix|combine|collaborate|connect|cooperate) together
+  - (?:gather|assemble|attach|blend|mix|combine|collaborate|connect|cooperate)
+    together
   - (?:terrible|horrible) tragedy
   - \d{1,2} ?a\.?m\.? in the morning
   - \d{1,2} ?p\.?m\.? at night

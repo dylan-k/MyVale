@@ -1,0 +1,8 @@
+---
+message:
+  "This sentence is too long. It has more than 14 words. Shorten or split it."
+extends: occurrence
+scope: sentence
+level: error
+min: 14
+token: \b(\w+)\b
