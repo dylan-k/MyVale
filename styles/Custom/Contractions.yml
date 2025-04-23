@@ -1,8 +1,8 @@
 ---
 # source: 18F
 extends: substitution
-message: 'Use "%s" instead of "%s".'
-link: https://content-guide.18f.gov/voice-and-tone/#use-contractions
+message: "Use `%s` instead of `%s`."
+link: "https://content-guide.18f.gov/voice-and-tone/#use-contractions"
 level: error
 ignorecase: true
 swap:

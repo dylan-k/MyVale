@@ -1,7 +1,13 @@
 ---
 extends: existence
-message: "Heading '%s' should not be in ALL CAPS."
+message: "Heading `%s` should not be in ALL CAPS."
 level: error
-scope: heading
+scope:
+  # h1 OR h2
+  - heading.h2
+  - heading.h3
+  - heading.h4
+  - heading.h5
+  - heading.h6
 tokens:
   - "^[A-Z0-9\\s:;,.!?\\'\"-]+$"

@@ -1,7 +1,9 @@
 ---
 #source: 18F
 extends: conditional
-message: "Define acronyms and abbreviations (such as '%s') on first occurrence if they're likely to be unfamiliar."
+message:
+  "Define acronyms and abbreviations (such as `%s`) on first occurrence if
+  they're likely to be unfamiliar."
 link: https://content-guide.18f.gov/abbreviations-and-acronyms/
 level: suggestion
 ignorecase: false

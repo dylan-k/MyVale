@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: "Do not use '%s' as the content of a link."
+message: "Do not use `%s` as the content of a link."
 ignorecase: true
 scope: sentence
 level: warning

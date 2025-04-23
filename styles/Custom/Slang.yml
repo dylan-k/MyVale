@@ -1,11 +1,11 @@
 #source: Google
 extends: existence
-message: "Avoid internet slang abbreviations such as '%s'."
-link: 'https://developers.google.com/style/abbreviations'
+message: "Avoid internet slang abbreviations such as `%s`."
+link: "https://developers.google.com/style/abbreviations"
 ignorecase: true
 level: warning
 tokens:
-  - 'tl;dr'
+  - "tl;dr"
   - ymmv
   - rtfm
   - imo

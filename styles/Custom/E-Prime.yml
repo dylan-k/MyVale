@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: Avoid using “%s.”
+message: "Avoid using `%s`."
 ignorecase: true
 level: suggestion
 tokens:

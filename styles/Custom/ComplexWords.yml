@@ -1,7 +1,7 @@
 ---
 extends: substitution
-message: Consider using %s instead of '%s'
-link: http://www.plainlanguage.gov/howto/wordsuggestions/simplewords.cfm
+message: "Consider using `%s` instead of `%s`"
+link: "http://www.plainlanguage.gov/howto/wordsuggestions/simplewords.cfm"
 scope: sentence
 ignorecase: true
 level: warning

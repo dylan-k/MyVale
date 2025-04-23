@@ -7,7 +7,7 @@ message:
   "'%[1]s %[2]s' may be passive voice. Consider revising to active voice."
 link: "https://library.douglascollege.ca/sites/default/files/2023-12/GR_3.40_Identifying_Passive_Voice.pdf"
 ignorecase: true
-level: suggestion
+level: error
 scope: sentence
 tokens:
   - pattern: '\b(am|are|were|being|is|been|was|be)\b' # Auxiliary verbs

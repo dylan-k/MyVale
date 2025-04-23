@@ -1,7 +1,7 @@
 ---
-message: Don't end a sentence with “%s.”
+message: "Don't end a sentence with `%s`."
 extends: existence
 level: warning
 scope: sentence
 raw:
-  - '\b(?:at|from|of|to|in|for|on|by)[.!]'
+  - '\b(?:at|from|of|to|in|for|on|by)[.!?]'

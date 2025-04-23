@@ -1,6 +1,6 @@
 extends: existence
 message: "Use ' a.m.' or ' p.m.' (preceded by a space)."
-link: 'https://developers.google.com/style/word-list'
+link: "https://developers.google.com/style/word-list"
 level: error
 nonword: true
 tokens:

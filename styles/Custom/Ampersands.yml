@@ -1,7 +1,7 @@
 ---
 extends: existence
-message: Only use ampersands within a company or brand name.
-link: http://styleguide.mailchimp.com/grammar-and-mechanics/#header-4-ampersands
+message: "Only use ampersands within a company or brand name."
+link: "http://styleguide.mailchimp.com/grammar-and-mechanics/#header-4-ampersands"
 level: warning
 nonword: true
 tokens:

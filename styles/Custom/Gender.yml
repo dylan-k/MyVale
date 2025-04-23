@@ -1,39 +1,39 @@
 #source: Google
 extends: existence
-message: "Use of '%s' could indicate that you're discriminating in favour of a certain gender."
-link: 'https://developers.google.com/style/pronouns#gender-neutral-pronouns'
-level: error
+message: "Use of `%s` could indicate gender discrimination"
+link: "https://developers.google.com/style/pronouns#gender-neutral-pronouns"
+level: warning
 ignorecase: true
 tokens:
-  - 'boys?'
-  - 'bros?'
-  - 'broth(?:a|er)s?'
-  - 'chicks?'
-  - 'dads?'
-  - 'dudes?'
-  - 'fathers?'
-  - 'females?'
-  - 'gentlem[ae]n'
-  - 'girls?'
-  - 'gran'
-  - 'grandfathers?'
-  - 'grandmas?'
-  - 'grandmothers?'
-  - 'grandpas?'
-  - 'grann(?:y|ies)'
-  - 'guys?'
-  - 'husbands?'
-  - 'lad(y|ies)?'
-  - 'm[ae]n'
-  - 'm[ou]ms?'
-  - 'males?'
-  - 'momm(?:y|ies)'
-  - 'mommas?'
-  - 'mothers?'
-  - 'papas?'
-  - 'sist(?:a|er)s?'
-  - 'wi(?:fe|ves)'
-  - 'wom[ae]n'
+  - "boys?"
+  - "bros?"
+  - "broth(?:a|er)s?"
+  - "chicks?"
+  - "dads?"
+  - "dudes?"
+  - "fathers?"
+  - "females?"
+  - "gentlem[ae]n"
+  - "girls?"
+  - "gran"
+  - "grandfathers?"
+  - "grandmas?"
+  - "grandmothers?"
+  - "grandpas?"
+  - "grann(?:y|ies)"
+  - "guys?"
+  - "husbands?"
+  - "lad(y|ies)?"
+  - "m[ae]n"
+  - "m[ou]ms?"
+  - "males?"
+  - "momm(?:y|ies)"
+  - "mommas?"
+  - "mothers?"
+  - "papas?"
+  - "sist(?:a|er)s?"
+  - "wi(?:fe|ves)"
+  - "wom[ae]n"
   - \(s\)he
   - he
   - he/she

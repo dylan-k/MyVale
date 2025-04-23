@@ -1,8 +1,9 @@
 ---
+extends: occurrence
 message:
   "This sentence is too long. It has more than 14 words. Shorten or split it."
-extends: occurrence
+link: "https://docs.gitlab.com/ee/development/documentation/styleguide/index.html#language"
 scope: sentence
 level: error
-min: 14
+max: 14
 token: \b(\w+)\b

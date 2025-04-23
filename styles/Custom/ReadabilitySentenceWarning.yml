@@ -1,8 +1,9 @@
 ---
 message: "This sentence may be too long. Consider a succinct alternative."
 extends: occurrence
-scope: sentence
-level: warning
-min: 10
+scope:
+  - sentence - ~blockquote & ~heading
+level: error
+min: 12
 max: 13
 token: \b(\w+)\b

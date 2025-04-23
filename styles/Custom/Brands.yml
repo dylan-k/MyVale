@@ -1,7 +1,7 @@
 ---
 extends: substitution
-message: "Use '%s' instead of '%s'."
-link: https://content-guide.18f.gov/trademarks-and-brands/
+message: "Use `%s` instead of `%s`."
+link: "https://content-guide.18f.gov/trademarks-and-brands/"
 level: warning
 ignorecase: true
 swap:
