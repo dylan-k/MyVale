@@ -1,9 +1,8 @@
 extends: existence
-message: "Use ' a.m.' or ' p.m.' (preceded by a space)."
+message: "Use ' am' or ' pm' (preceded by a space)."
 link: "https://developers.google.com/style/word-list"
 level: error
 nonword: true
 tokens:
   - '\d{1,2}[AP]M'
-  - '\d{1,2} ?[ap]m'
   - '\d{1,2} ?[aApP]\.[mM]\.'
