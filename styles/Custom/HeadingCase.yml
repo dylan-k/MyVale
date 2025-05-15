@@ -1,8 +1,12 @@
 extends: capitalization
 message: "`%s` should be in title case. Expected: `%s`."
 level: warning
-scope: heading
-# $title, $sentence, $lower, $upper, or a pattern.
+scope: # exclude h1
+  - heading.h2
+  - heading.h3
+  - heading.h4
+  - heading.h5
+  - heading.h6
 match: $title
 # AP or Chicago; only applies when match is set to
 # $title.
