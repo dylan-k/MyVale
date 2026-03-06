@@ -1,9 +1,7 @@
 ---
 # Detects "by" phrases that indicate passive voice constructions
 extends: sequence
-message:
-  "'%[1]s %[2]s %[3]s' may indicate passive voice. Consider revising to active
-  voice."
+message: "Rewrite '%[1]s %[2]s %[3]s' in active voice."
 link: "https://library.douglascollege.ca/sites/default/files/2023-12/GR_3.40_Identifying_Passive_Voice.pdf"
 ignorecase: true
 level: error
