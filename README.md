@@ -97,7 +97,7 @@ Adjust this  to match your preferred editor, operating system, and so on.
 
 ### Using MyVale with VS Code
 
-To integrate Vale into Visual Studio Code, install the [Vale extension](https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server) and configure it:
+To integrate Vale into Visual Studio Code, install the Vale extension and configure it:
 
 ```json
 // Example settings.json snippet (Windows)
