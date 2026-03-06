@@ -5,7 +5,7 @@
 MyVale
 ================================================================================
 
-A personal collection of style-guide rules for use with the Vale linter.
+A personal collection of style-guide rules for use with the [Vale prose linter](https://vale.sh/docs/install).
 
 Use *MyVale* to check and enforce writing conventions across your documents. This repository contains custom and borrowed rules, along with a configuration file that Vale uses by default. It serves as an example of how to work with Vale using personalized style rules.
 
@@ -28,60 +28,36 @@ Prerequisites
 Get Started
 --------------------------------------------------------------------------------
 
-### Clone the repository
+Clone this repo into Vale's global configuration directory. Vale checks a default location per OS:
 
-Navigate to your `.config` directory (or the Windows equivalent):
+| OS      | Global config directory                        |
+|---------|------------------------------------------------|
+| Windows | `%LOCALAPPDATA%\vale\`                         |
+| macOS   | `~/Library/Application Support/vale/`          |
+| Linux   | `$XDG_CONFIG_HOME/vale/` (usually `~/.config/vale/`) |
 
-```bash
-cd ~/.config/
-```
-
-Then, clone the repository:
-
-```bash
-git clone git@github.com:dylan-k/MyVale.git vale
-```
-
-This command creates a `~/.config/vale/` directory that holds your custom style rules.
-
-### Link the configuration file
-
-Vale expects its configuration to be in a file named `.vale.ini` or `_vale.ini`. It'll start looking for this file in the directory where vale runs. Then it searches up the file tree until it finds one.
-
-In addition to project-specific configurations, Vale also supports a global configuration file:
-  - **Windows**: `%LOCALAPPDATA%\vale\.vale.ini`
-  - **macOS**: `$HOME/Library/Application Support/vale/.vale.ini`
-  - **Unix**: `$XDG_CONFIG_HOME/vale/.vale.ini`
-
-Run `vale ls-dirs` to see the exact locations Vale checks on your system.
-
-Create a hard link (`.vale.ini`) so changes remain under version control:
-
-**Linux/macOS**:
+Run `vale ls-dirs` to confirm the path on your system, then clone:
 
 ```bash
-ln ~/.config/vale/.vale.ini ~/.vale.ini
+git clone git@github.com:dylan-k/MyVale.git "$(vale ls-dirs | head -1)"
 ```
 
-**Windows (PowerShell)**:
+Or manually:
 
-```powershell
-New-Item -ItemType HardLink -Path "$Env:USERPROFILE\.vale.ini" -Target "$Env:USERPROFILE\.config\vale\.vale.ini"
+
+
+```bashexample for Linux
+================================================================================
+git clone git@github.com:dylan-k/MyVale.git ~/.config/vale
 ```
 
-### Verify the StylesPath setting
+Since `.vale.ini` lives inside the repo and Vale already looks in this directory, no symlinks are needed.
 
-Check the value of `StylesPath` in your `.vale.ini` file. By default, it should point to `~/.config/vale/styles`. Update if necessary.
-
-### Initialize your local config
-
-Once you have your local `.vale.ini` in the directory of your choice, run
+Finally, sync packages:
 
 ```
 vale sync
 ```
-
-from the command line to load or initialize it.
 
 
 Configs
@@ -95,24 +71,13 @@ You can add an alias to quickly edit Vale settings:
 alias valestyles="cd ~/.config/vale && code ."
 ```
 
-Adjust this  to match your preferred editor, operating system, and so on.
+Adjust this to match your preferred editor, operating system, and so on.
 
 ### Using MyVale with VS Code
 
-To integrate Vale into Visual Studio Code, install the [Vale extension](https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server) and configure it:
+To integrate Vale into Visual Studio Code, install the [Vale extension](https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server) and configure it to use your MyVale styles. In VS Code settings, set the Vale configuration path to point to your .vale.ini file, which is located in the MyVale repository you cloned. This allows VS Code to check your writing against the custom rules defined in MyVale while you edit your documents.
 
-```json
-// Example settings.json snippet (Windows)
-"vale.server.serverURL": "",
-"vale.core.useCLI": true,
-"vale.valeCLI.path": "vale",
-"vale.server.lintContext": -1,
-"vale.server.provideFixes": false,
-"vale.valeCLI.config": "%USERPROFILE%\\.vale.ini",
-"vale.valeCLI.minAlertLevel": "suggestion"
-```
-
-**Tip:** Exclude your Vale settings from VS Code's settings sync if you plan to use different paths or configurations on other machines.
+**Tip:** Exclude your Vale settings from VS Code's settings sync if you plan to use different paths or configurations on different machines.
 
 
 Updating Styles
@@ -131,17 +96,6 @@ Customizing Rules
 --------------------------------------------------------------------------------
 
 You can learn from existing [examples of Vale styles](https://vale.sh/explorer), borrowing rules as needed. Use the [Vale Studio](https://studio.vale.sh/) to validate your style definitions.
-
-1. **Copy a rule file**\
-   Copy the `.yml` file from its original directory into the `styles/Custom` folder.
-2. **Disable the original rule**\
-   In your `.vale.ini`, add the original rule to the ignore list (or set it to `false`).
-3. **Delete the original file**\
-   Remove the `.yml` file so that updates from the external source won't overwrite your custom changes.
-4. **Commit changes**\
-   Commit and push your modified rule to source control.
-
-> **Goal:** Eventually merge and refine all borrowed sets until you rely solely on your custom style rules.
 
 
 References
