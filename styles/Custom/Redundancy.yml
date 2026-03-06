@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: "`%s` is redundant. Replace with a succinct alternative."
+message: "Cut '%s': it's redundant."
 ignorecase: true
 level: error
 tokens:

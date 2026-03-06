@@ -1,8 +1,7 @@
 ---
 # Detects split infinitives
 extends: sequence
-message:
-  "Avoid splitting infinitives (e.g., '%[1]s %[2]s %[3]s'). Consider revising to avoid placing modifiers between 'to' and the verb."
+message: "Move the modifier in '%[1]s %[2]s %[3]s': don't split the infinitive."
 link: "https://writingcenter.unc.edu/tips-and-tools/split-infinitives/"
 ignorecase: true
 level: suggestion

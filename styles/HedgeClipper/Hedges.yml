@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: "To say '%s' hedges the point."
+message: "Remove or rephrase '%s': hedging weakens ideas."
 link: https://typely.com/blog/hedging/
 ignorecase: true
 level: warning

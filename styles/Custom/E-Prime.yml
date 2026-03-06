@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: "Avoid using `%s`."
+message: "Remove '%s': E-Prime avoids all forms of 'to be'."
 ignorecase: true
 level: suggestion
 tokens:

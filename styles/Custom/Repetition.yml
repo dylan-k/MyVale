@@ -1,6 +1,6 @@
 ---
 extends: repetition
-message: "`%s` is repeated. Remove the redundancy."
+message: "Remove the repeated word '%s'."
 level: error
 alpha: true
 action:

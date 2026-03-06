@@ -1,7 +1,6 @@
 ---
 extends: existence
-message:
-  "Use parentheses judiciously. Revise to avoid more than one pair per sentence"
+message: "Rewrite to use no more than one pair of parentheses per sentence."
 link: https://developers.google.com/style/parentheses
 nonword: true
 scope: sentence

@@ -4,8 +4,7 @@
 # https://vale.sh/docs/checks/sequence
 # https://github.com/jdkato/prose?tab=readme-ov-file#tagging
 extends: sequence
-message:
-  "Avoid adverbs like '%[1]s'. Stronger verbs or adjectives might work better."
+message: "Replace '%[1]s' with a stronger verb or adjective."
 link: "https://writingcenter.unc.edu/tips-and-tools/adverbs/"
 ignorecase: true
 level: suggestion

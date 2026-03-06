@@ -1,6 +1,6 @@
 #source: Google
 extends: existence
-message: "Use of `%s` could indicate gender discrimination"
+message: "Check '%s' for gendered language; use a neutral alternative."
 link: "https://developers.google.com/style/pronouns#gender-neutral-pronouns"
 level: warning
 ignorecase: true

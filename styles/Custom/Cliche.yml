@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: "Replace the cliché `%s` with a less cliché alternative."
+message: "Replace '%s': it's a cliché."
 level: error
 ignorecase: true
 tokens:

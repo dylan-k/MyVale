@@ -1,7 +1,7 @@
 ---
 # source: 18F
 extends: substitution
-message: "`%s`"
+message: "Replace '%s' with plain language."
 link: "https://content-guide.18f.gov/plain-language/#words-to-avoid"
 level: warning
 ignorecase: true

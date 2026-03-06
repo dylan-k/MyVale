@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: "`%s` is jargon."
+message: "Replace '%s': it's jargon."
 description:
   "Slang, like metaphors, should be used only occasionally if it is to have
   effect."
