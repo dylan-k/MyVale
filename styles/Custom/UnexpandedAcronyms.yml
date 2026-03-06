@@ -1,7 +1,7 @@
 ---
 #source: 18F
 extends: conditional
-message: "Define '%s' on first use."
+message: "Revise to define `%s` on first use."
 link: https://content-guide.18f.gov/abbreviations-and-acronyms/
 level: suggestion
 ignorecase: false

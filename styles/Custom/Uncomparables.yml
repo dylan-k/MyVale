@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: "Remove the qualifier: '%s' is an absolute and can't be compared."
+message: "Remove the qualifier: `%s` is an absolute and can't be compared."
 ignorecase: true
 level: error
 action:

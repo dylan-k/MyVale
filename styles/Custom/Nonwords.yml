@@ -1,6 +1,6 @@
 ---
 extends: substitution
-message: "'%s' is not a word. Use '%s'."
+message: "`%s` is not a word. Use `%s`."
 ignorecase: true
 level: error
 action:

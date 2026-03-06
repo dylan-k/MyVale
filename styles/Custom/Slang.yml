@@ -1,6 +1,6 @@
 #source: Google
 extends: existence
-message: "Spell out '%s': avoid internet slang."
+message: "Spell out `%s`: avoid internet slang."
 link: "https://developers.google.com/style/abbreviations"
 ignorecase: true
 level: warning

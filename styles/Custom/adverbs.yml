@@ -10,5 +10,7 @@ ignorecase: true
 level: suggestion
 scope: sentence
 tokens:
-  - tag: RB|RBR|RBS # Matches adverbs
+  - tag: RB|RBR|RBS # First adverb
+    skip: 12 # Allow up to 12 words between them
+  - tag: RB|RBR|RBS # Second adverb
   - pattern: '\b' # Matches the word immediately following the adverb

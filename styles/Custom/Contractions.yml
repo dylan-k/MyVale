@@ -10,7 +10,6 @@ swap:
   cannot: can't
   could not: couldn't
   did not: didn't
-  do not: don't
   does not: doesn't
   has not: hasn't
   have not: haven't
@@ -39,4 +38,3 @@ swap:
   who will: who'll
   why is: why's
   why will: why'll
-  will not: won't

@@ -9,22 +9,23 @@ A personal collection of style-guide rules for use with the Vale linter.
 
 Use *MyVale* to check and enforce writing conventions across your documents. This repository contains custom and borrowed rules, along with a configuration file that Vale uses by default. It serves as an example of how to work with Vale using personalized style rules.
 
+With this config, Vale is used alongside LTeX+:
+  - Prefer Vale to check prose against a style guide.
+  - Prefer LTeX+ to check grammar and spelling.
+
 
 Prerequisites
 --------------------------------------------------------------------------------
 
-  - [Vale](https://vale.sh/docs/install) should be installed (for example, via Scoop or another package manager). Confirm that Vale is available on your system's `PATH`:
+  - [Vale](https://vale.sh/docs/install)
+    : install via Scoop or another package manager
+    : confirm install via `vale -v`
 
-  ```bash
-  vale -v
-  ```
-
-  - Git (or a Git client) should be installed to clone and manage this repository.
-
-  - (Optional) Visual Studio Code with the [Vale extension for VSCode](https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vale-vscode).
+  - [Vale extension for VSCode](https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vale-vscode)
+    : Shows writing and linting suggestions while editing.
 
 
-Installation
+Get Started
 --------------------------------------------------------------------------------
 
 ### Clone the repository
@@ -45,8 +46,9 @@ This command creates a `~/.config/vale/` directory that holds your custom style 
 
 ### Link the configuration file
 
-Vale searches for your global `.vale.ini` in different directories, depending on your operating system:
+Vale expects its configuration to be in a file named `.vale.ini` or `_vale.ini`. It'll start looking for this file in the directory where vale runs. Then it searches up the file tree until it finds one.
 
+In addition to project-specific configurations, Vale also supports a global configuration file:
   - **Windows**: `%LOCALAPPDATA%\vale\.vale.ini`
   - **macOS**: `$HOME/Library/Application Support/vale/.vale.ini`
   - **Unix**: `$XDG_CONFIG_HOME/vale/.vale.ini`
@@ -82,7 +84,7 @@ vale sync
 from the command line to load or initialize it.
 
 
-Configuration Tips
+Configs
 --------------------------------------------------------------------------------
 
 ### Custom alias (optional)
@@ -97,7 +99,7 @@ Adjust this  to match your preferred editor, operating system, and so on.
 
 ### Using MyVale with VS Code
 
-To integrate Vale into Visual Studio Code, install the Vale extension and configure it:
+To integrate Vale into Visual Studio Code, install the [Vale extension](https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server) and configure it:
 
 ```json
 // Example settings.json snippet (Windows)

@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: "Replace '%s': it's jargon."
+message: "Replace `%s`: it's jargon."
 description:
   "Slang, like metaphors, should be used only occasionally if it is to have
   effect."
@@ -9,7 +9,6 @@ level: warning
 ignorecase: true
 tokens:
   - ailing
-  - Big Pharma
   - caring
   - crisis
   - Ethics violations

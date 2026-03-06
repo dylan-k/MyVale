@@ -7,7 +7,6 @@ native/vale-native.exe
 styles/.vale-config/
 styles/alex/
 styles/google/
-styles/Google/
 styles/Hugo/
 styles/Joblint/
 styles/microsoft/

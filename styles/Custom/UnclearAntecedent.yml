@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: "Rewrite '%s': the antecedent is unclear."
+message: "Rewrite `%s`: the antecedent is unclear."
 ignorecase: true
 level: error
 raw:

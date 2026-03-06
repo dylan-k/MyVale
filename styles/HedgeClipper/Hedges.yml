@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: "Remove or rephrase '%s': hedging weakens ideas."
+message: "Remove or rephrase `%s`: hedging weakens ideas."
 link: https://typely.com/blog/hedging/
 ignorecase: true
 level: warning

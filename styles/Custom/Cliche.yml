@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: "Replace '%s': it's a cliché."
+message: "Replace `%s`: it's a cliché."
 level: error
 ignorecase: true
 tokens:
@@ -220,7 +220,6 @@ tokens:
   - eat your heart out
   - eat your words
   - eleventh hour
-  - environment
   - even the playing field
   - every dog has its day
   - every fiber of my being
@@ -639,7 +638,6 @@ tokens:
   - six of one, half a dozen of another
   - six of one, half a dozen of the other
   - skating on thin ice
-  - skills
   - slept like a log
   - slinging mud
   - slippery as an eel

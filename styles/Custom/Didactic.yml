@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: "Rephrase '%s': leading with directives sounds didactic."
+message: "Rephrase `%s`: leading with directives sounds didactic."
 description:
   "If too many sentences begin with `%s` readers will think they are reading a
   textbook."

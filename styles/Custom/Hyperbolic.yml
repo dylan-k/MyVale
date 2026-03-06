@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: "Remove '%s': it's hyperbolic filler."
+message: "Remove `%s`: it's hyperbolic filler."
 link: "https://github.com/cockroachdb/docs/blob/master/STYLE.md#language-and-tone"
 ignorecase: true
 level: warning
